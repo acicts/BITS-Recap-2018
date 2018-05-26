@@ -238,13 +238,35 @@
           <div class="row">
             <ul>
             {% for student in site.data.students %}
-              <div class="col-sm-2">
-                <img src="assets/img/{{student.image}}.jpg" alt="Raised Image" class="rounded img-raised">
+              <div class="col">
+                <img src="assets/img/students/{{student.image}}.jpg" alt="Raised Image" class="rounded img-raised">
                 <h6 class="category">{{student.name}}</h6>
                 <p class="category">{{student.class}}</p>
                 <p class="category">{{student.github}}</p> 
                 <p class="category">{{student.twitter}}</p>  
                 <p class="category">{{student.facebook}}</p> 
+              </div>
+            {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!--mentors-->
+    <div class="section">
+      <section id="participants" draggable="true">
+        <h4 class="text-info text-center">Participants</h4>
+        <div class="container">
+          <div class="row">
+            <ul>
+            {% for mentor in site.data.mentors %}
+              <div class="col">
+                <img src="assets/img/mentors/{{mentor.image}}.jpg" alt="Raised Image" class="rounded img-raised">
+                <h6 class="category">{{mentor.name}}</h6>
+                <p class="category">{{mentor.class}}</p>
+                <p class="category">{{mentor.github}}</p> 
+                <p class="category">{{mentor.twitter}}</p>
               </div>
             {% endfor %}
             </ul>
