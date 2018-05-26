@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
-gem 'github-pages', group: :jekyll_plugins
+gem 'github-pages'
+gem 'html-proofer'
+gem 'jekyll'
+gem 'percy-cli'
 gem 'fastimage'
-gem 'img_checker'
-#gem 'jekyll-sitemap'
-#gem 'jekyll-paginate'
-
