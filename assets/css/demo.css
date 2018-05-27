@@ -487,3 +487,10 @@
         display: none !important;
     }
 }
+
+.avatar-card{
+    position: relative;
+    display: inline-flex;
+    width: 23%;
+    padding-left: 1%;
+}
