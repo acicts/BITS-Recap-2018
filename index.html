@@ -28,8 +28,8 @@ layout:
   <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent" color-on-scroll="900">
         <div class="container">
             <div class="navbar-translate">
-                <a class="navbar-brand" href="index.html" rel="tooltip" title="" data-placement="bottom" target="_blank" data-original-title="Designed by Invision. Coded by Creative Tim">
-                    Now Ui Kit
+                <a class="navbar-brand" href="#" rel="tooltip" title="" data-placement="bottom" data-original-title="acicts">
+                    <img style="width:20%;;" src="./assets/img/bits-white.png" alt="bits">
                 </a>
                 <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-bar bar1"></span>
@@ -55,31 +55,19 @@ layout:
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./documentation/tutorial-components.html" target="_blank">
-                            <i class="now-ui-icons files_paper"></i>
-                            <p>Components</p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link btn btn-neutral" href="https://www.creative-tim.com/product/now-ui-kit-pro" target="_blank">
-                            <i class="now-ui-icons arrows-1_share-66"></i>
-                            <p>Upgrade to PRO</p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank" data-original-title="Follow us on Twitter">
+                        <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://twitter.com/BITS" target="_blank" data-original-title="Follow us on Twitter">
                             <i class="fa fa-twitter"></i>
                             <p class="d-lg-none d-xl-none">Twitter</p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.facebook.com/CreativeTim" target="_blank" data-original-title="Like us on Facebook">
+                        <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.facebook.com/acicts" target="_blank" data-original-title="Like us on Facebook">
                             <i class="fa fa-facebook-square"></i>
                             <p class="d-lg-none d-xl-none">Facebook</p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.instagram.com/CreativeTimOfficial" target="_blank" data-original-title="Follow us on Instagram">
+                        <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.instagram.com/BITS" target="_blank" data-original-title="Follow us on Instagram">
                             <i class="fa fa-instagram"></i>
                             <p class="d-lg-none d-xl-none">Instagram</p>
                         </a>
@@ -279,9 +267,9 @@ layout:
       <section id="participants" draggable="true">
         <h4 class="text-info text-center">Participants</h4>
         <div class="container">
-          <div class="row">
+          <!--div class="row"-->
             {% for student in site.data.students %}
-            <div class="col-sm-2 col-md-3 ">
+            <div class="avatar-card">
               <div class="card card-cascade wider">
                 <div class="view overlay">
                   <img class="card-img-top" src="assets/img/students/{{student.image}}.jpg" alt="{{student.name}}"> </div>
@@ -300,7 +288,7 @@ layout:
               </div>
             </div>
               {% endfor %}              
-          </div>
+          <!--/div-->
         </div>
       </section>
     </div>
@@ -310,9 +298,9 @@ layout:
       <section id="mentors" draggable="true">
         <h4 class="text-info text-center">Mentors</h4>
         <div class="container">
-          <div class="row">
+          <!--div class="row"-->
               {% for mentor in site.data.mentors %}
-            <div class="col-sm-2 col-md-3 ">
+            <div class="avatar-card">
               <div class="card card-cascade wider">
                 <div class="view overlay">
                   <img class="card-img-top" src="assets/img/students/{{mentor.image}}.jpg" alt="{{mentor.name}}"> </div>
@@ -331,7 +319,7 @@ layout:
               </div>
             </div>
               {% endfor %}
-          </div>
+          <!--/div-->
         </div>
       </section>
     </div>
@@ -343,20 +331,14 @@ layout:
         <nav>
           <ul>
             <li>
-              <a href="https://www.creative-tim.com"> Creative Tim </a>
+              <a href="http://portal.acicts.io"> Forum </a>
             </li>
             <li>
-              <a href="http://presentation.creative-tim.com"> About Us </a>
+              <a href="http://www.acicts.io"> About Us </a>
             </li>
-            <li>
-              <a href="http://blog.creative-tim.com"> Blog </a>
-            </li>
-            <li>
-              <a "> MIT License </a>
-                </li>
-              </ul>
+          </ul>
             </nav>
-            <div class="copyright "> © copyrights 2018 ACICTS - All rights reserved. </div>
+            <div class="copyright "> © acicts 2018 </div>
           </div>
         </footer>
         <!--   Core JS Files   -->
