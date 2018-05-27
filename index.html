@@ -248,17 +248,26 @@
         <h4 class="text-info text-center">Participants</h4>
         <div class="container">
           <div class="row">
-            <ul>
-              {% for student in site.data.students %}
-              <div class="col">
-                <img src="assets/img/students/{{student.image}}.jpg" alt="Raised Image" class="rounded img-raised">
-                <h6 class="category">{{student.name}}</h6>
-                <p class="category">{{student.class}}</p>
-                <p class="category">{{student.github}}</p>
-                <p class="category">{{student.twitter}}</p>
+            {% for student in site.data.students %}
+            <div class="col-sm-2 col-md-3 ">
+              <div class="card card-cascade wider">
+                <div class="view overlay">
+                  <img class="card-img-top" src="assets/img/students/{{student.image}}.jpg" alt="{{student.name}}"> </div>
+                <div class="card-body text-center">
+                  <p class="card-title">
+                    <strong>{{student.name}}</strong>
+                    <br>
+                  </p>
+                  <ul>
+                    <li class="card-text">{{student.class}}</li>
+                    <li class="card-text">{{student.github}}</li>
+                    <li class="card-text">{{student.twitter}}</li>
+                  </ul>
+
+                </div>
               </div>
-              {% endfor %}
-            </ul>
+            </div>
+              {% endfor %}              
           </div>
         </div>
       </section>
