@@ -489,8 +489,5 @@
 }
 
 .avatar-card{
-    position: relative;
-    display: inline-flex;
-    width: 23%;
-    padding-left: 1%;
+    position:relative;padding:5px 10px;width:225px;display: inline-block;
 }
