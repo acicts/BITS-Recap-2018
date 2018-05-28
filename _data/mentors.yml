@@ -1,34 +1,36 @@
 - name: Supun Tharinda Edirisuirya
   class: Grade 11
-  image: avatar
+  image: mentor
   github: STEdirisuriya
   twitter: Supun_Tharinda_
 
 - name: Hasala Heyianthuduwa
   class: Grade 11
-  image: avatar
+  image: mentor
 
 - name: Maneth Bimsara Edirirmuni
   class: Grade 11
-  image: avatar
+  image: mentor
+  twitter: Maneth_Bimsara
 
 - name: Hasalu Botheju
   class: Grade 11
-  image: avatar
+  image: mentor
 
 - name: Adeesh Perera
   class: Grade 11
-  image: avatar
+  image: mentor
   github: AdeeshPe
+  twitter: adeeshpe
 
 - name: Induwara Ranathunga
   class: Grade 11
-  image: avatar
+  image: mentor
 
-- name: Induwara Ranathunga
+- name: Nipun Demintha Kapuwella
   class: Grade 11
-  image: avatar
+  image: mentor
 
-- name: Induwara Ranathunga
+- name: Kasun Vishwajith Vithanage
   class: Grade 11
-  image: avatar
+  image: mentor
