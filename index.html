@@ -529,7 +529,65 @@ layout:
     
           </section>
       
-<!--mentors-->
+
+    <!--participants-->
+
+    <div class="section">
+
+      <section>
+
+        <h4 class="text-info text-center"  id="participants"><br>Participants</h4>
+
+        <div class="container">
+
+          <div class="row">
+
+            {% for student in site.data.students %}
+
+            <div class="avatar-card">
+
+              <div class="card card-cascade wider">
+
+                <div class="view overlay">
+
+                  <img class="card-img-top" src="assets/img/students/{{student.image}}.jpg" alt="{{student.name}}"> </div>
+
+                <div class="card-body text-center">
+
+                  <p class="card-title">
+
+                    <strong>{{student.name}}</strong>
+
+                    <br>
+
+                  </p>
+
+                  <p class="card-text"><strong>Class: </strong>{{student.class}}</p>
+
+                  {% if student.twitter %}
+
+                  <a href="https://twitter.com/{{student.twitter}}"><i class="fa fa-twitter-square fa-3x"></i></a>
+
+                  {% endif %}{% if student.github %}
+
+                  <a href="https://github.com/{{student.github}}"><i class="fa fa-github-square fa-3x"></i></a>
+
+                  {% endif %}
+
+                </div>
+
+              </div>
+
+            </div>
+
+              {% endfor %}              
+
+          </div>
+
+        </div>
+      </section>
+
+      <!--mentors-->
 
 <div class="section">
   
@@ -588,65 +646,6 @@ layout:
           </div>
   
         </section>
-  
-      
-
-    <!--participants-->
-
-    <div class="section">
-
-      <section>
-
-        <h4 class="text-info text-center"  id="participants"><br>Participants</h4>
-
-        <div class="container">
-
-          <div class="row">
-
-            {% for student in site.data.students %}
-
-            <div class="avatar-card">
-
-              <div class="card card-cascade wider">
-
-                <div class="view overlay">
-
-                  <img class="card-img-top" src="assets/img/students/{{student.image}}.jpg" alt="{{student.name}}"> </div>
-
-                <div class="card-body text-center">
-
-                  <p class="card-title">
-
-                    <strong>{{student.name}}</strong>
-
-                    <br>
-
-                  </p>
-
-                  <p class="card-text"><strong>Class: </strong>{{student.class}}</p>
-
-                  {% if student.twitter %}
-
-                  <a href="https://twitter.com/{{student.twitter}}"><i class="fa fa-twitter-square fa-3x"></i></a>
-
-                  {% endif %}{% if student.github %}
-
-                  <a href="https://github.com/{{student.github}}"><i class="fa fa-github-square fa-3x"></i></a>
-
-                  {% endif %}
-
-                </div>
-
-              </div>
-
-            </div>
-
-              {% endfor %}              
-
-          </div>
-
-        </div>
-      </section>
 
 
 
