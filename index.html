@@ -42,8 +42,7 @@ layout:
   <!-- CSS Just for demo purpose, don't include it in your project -->
 
   <link href="./assets/css/demo.css" rel="stylesheet" />
-  <link href="./assets/css/sass/now-ui-kit.scss" rel="stylesheet" />
-  <link rel="stylesheet/less" type="text/css" href="./assets/css/less/demo.less" />
+
 </head>
 
 
@@ -480,92 +479,58 @@ layout:
 
 
   <!--projects-->
-  <section>
-      <h4 class="text-info text-center" id="mentors"><br>Tasks' Projects</h4>
-      
-  <div class="cards">
-      {% for projects in site.data.projects %}
-      <div class="card">
-        <img src="assets/img/projects/{{projects.image}}.png" alt="{{projects.name}}">
-        <div class="card-title">
-          <a href="#" class="toggle-info btn">
-            <span class="left"></span>
-            <span class="right"></span>
-          </a>
-          <h2>
-              Project name: {{projects.name}}
-              <small>Task ID: {{projects.task}}<br>Task Category: {{projects.category}}</small><br>{{projects.student}}
-              <small>Grade: {{projects.grade}}</small>
-          </h2>
-        </div>
-        <div class="card-flap flap1">
-            {% if projects.description %}
-          <div class="card-description">
-              {{projects.description}}
-             </div>
-             {% endif %}
-          <div class="card-flap flap2">
-            <div class="card-actions">
-              <a href="#" class="btn">Read more</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      {% endfor %}
+  <div class="section">
     
-    </div>
-<script>
-  $(document).ready(function () {
-    var zindex = 10;
-
-    $("div.card").click(function (e) {
-      e.preventDefault();
-
-      var isShowing = false;
-
-      if ($(this).hasClass("show")) {
-        isShowing = true
-      }
-
-      if ($("div.cards").hasClass("showing")) {
-        // a card is already in view
-        $("div.card.show")
-          .removeClass("show");
-
-        if (isShowing) {
-          // this card was showing - reset the grid
-          $("div.cards")
-            .removeClass("showing");
-        } else {
-          // this card isn't showing - get in with it
-          $(this)
-            .css({
-              zIndex: zindex
-            })
-            .addClass("show");
-
-        }
-
-        zindex++;
-
-      } else {
-        // no cards in view
-        $("div.cards")
-          .addClass("showing");
-        $(this)
-          .css({
-            zIndex: zindex
-          })
-          .addClass("show");
-
-        zindex++;
-      }
-
-    });
-  });
-</script>
-    </section>
-                    
+          <section>
+    
+            <h4 class="text-info text-center" id="mentors"><br>Tasks' Projects</h4>
+    
+            <div class="container">
+    
+              <div class="row">
+    
+                {% for projects in site.data.projects %}
+    
+                <div class="avatar-card">
+    
+                  <div class="card card-cascade wider">
+    
+                    <div class="view overlay">
+    
+                      <img class="card-img-top" src="assets/img/projects/{{projects.image}}.png" alt="{{projects.name}}"> </div>
+    
+                    <div class="card-body text-center">
+    
+                      <p class="card-title">
+                        <h5>Project name: {{projects.name}}</h5>
+                        <br>
+                      <strong>Task ID: {{projects.task}}</strong>
+                      <br>                  
+                      <h6>Task Category: {{projects.category}}</h6>
+                      <h4>{{projects.student}}</h4>
+                      <br>
+                      <h5>Grade: {{projects.grade}}</h5>
+                      <br>
+                    </p>
+                    {% if projects.description %}
+                    <p class="card-text">
+                        {{projects.description}}
+                    </p>
+                    {% endif %}
+    
+                    </div>
+    
+                  </div>
+    
+                </div>
+    
+                  {% endfor %}
+    
+              </div>
+    
+            </div>
+    
+          </section>
       
 <!--mentors-->
 
@@ -844,7 +809,7 @@ layout:
 <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
 
 <script src="./assets/js/now-ui-kit.js?v=1.1.0 " type="text/javascript "></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.0.2/less.min.js" ></script>
+
 </section>
 
 </div>
