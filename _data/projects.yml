@@ -5,6 +5,7 @@
   student: Jayasahan Hansana
   grade: 10
   description: Logo for a YouTube channel
+  link:
 
 - image: JA
   name: YouTube Logo
@@ -13,6 +14,7 @@
   student: Janidu Fernando
   grade: 9
   description: Logo for a YouTube channel
+  link:
 
 - image: SS
   name: YouTube Logo
@@ -21,6 +23,7 @@
   student: Sithira Seneviratne
   grade: 8
   description: Logo for a YouTube channel
+  link:
 
 - image: NP
   name: YouTube Logo
@@ -29,4 +32,5 @@
   student: Nethula Peiris
   grade: 9
   description: Logo for a YouTube channel
+  link:
 
