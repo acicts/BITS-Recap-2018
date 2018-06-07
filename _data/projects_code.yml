@@ -16,6 +16,42 @@
   description: Text to Morse converting programme
   link: https://drive.google.com/open?id=1u_9YXkriFHal0NTDYYgEwXmFSLysUql3
 
+- image: jw
+  name: Scratch Game
+  task: 0010C003
+  category: Code
+  student: Janiru Wijekoon
+  grade: 07
+  description: Small Game using Scratch
+  link: https://scratch.mit.edu/projects/220473559/#player 
+
+- image: ib
+  name: Scratch Game
+  task: 0010C003
+  category: Code
+  student: Inuka Batawala
+  grade: 10
+  description: Create a small game using Scratch
+  link: https://scratch.mit.edu/projects/220735357/
+
+- image: jbw
+  name: Calculator
+  task: 0002C001 
+  category: Code
+  student: Inuka Batawala
+  grade: 07
+  description: Create a simple calculator
+  link: 
+
+- image: cme
+  name: Calculator
+  task: 0002C001 
+  category: Code
+  student: Chamuthu Edirisooriya
+  grade: 10
+  description: Create a simple calculator
+  link: https://drive.google.com/file/d/1JYCiYqpig7_Ap3tlnDEHxNGn52q9AG5d/view?usp=drive_web
+
 
 
 
