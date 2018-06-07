@@ -488,13 +488,13 @@ layout:
     
           <section>
     
-            <h4 class="text-info text-center" id="mentors"><br>Tasks' Projects</h4>
+            <h4 class="text-info text-center" id="mentors"><br>Tasks' Projects (Design) </h4>
     
             <div class="container">
     
               <div class="row">
     
-                {% for projects in site.data.projects %}
+                {% for projects_design in site.data.projects_design %}
     
                 <div class="avatar-card">
     
@@ -502,23 +502,23 @@ layout:
     
                     <div class="view overlay">
     
-                      <img class="card-img-top" max-width="100%" height="200px" src="assets/img/projects/{{projects.image}}.png" alt="{{projects.name}}"> </div>
+                      <img class="card-img-top" max-width="100%" height="200px" src="assets/img/projects_design/{{projects_design.image}}.png" alt="{{projects_design.name}}"> </div>
     
                     <div class="card-body text-center">
     
                       <p class="card-title">
-                        <h5>{{projects.name}}</h5>
-                      <strong>Task ID: {{projects.task}}</strong>
+                        <h5>{{projects_design.name}}</h5>
+                      <strong>Task ID: {{projects_design.task}}</strong>
                       <br>                  
-                      <h6>Category: {{projects.category}}</h6>
-                      <h4>{{projects.student}}</h4>
-                      <h6>Grade: {{projects.grade}}</h6>
+                      <h6>Category: {{projects_design.category}}</h6>
+                      <h4>{{projects_design.student}}</h4>
+                      <h6>Grade: {{projects_design.grade}}</h6>
                     </p>
-                    {% if projects.description %}
+                    {% if projects_design.description %}
                     <p class="card-text">
-                        {{projects.description}}
+                        {{projects_design.description}}
                     </p>
-                    <a href="{{projects.link}}" target="_blank">
+                    <a href="{{projects_design.link}}" target="_blank">
                     <button class="btn btn-info">View Project</button>
                     </a>
                     {% endif %}
@@ -536,6 +536,116 @@ layout:
             </div>
     
           </section>
+
+ <!--projects code-->
+
+<div class="section">
+    
+          <section>
+    
+            <h4 class="text-info text-center" id="mentors"><br>Tasks' Projects (Code)</h4>
+    
+            <div class="container">
+    
+              <div class="row">
+    
+                {% for projects_code in site.data.projects_code %}
+    
+                <div class="avatar-card">
+    
+                  <div class="card card-cascade wider">
+    
+                    <div class="view overlay">
+    
+                      <img class="card-img-top" max-width="100%" height="200px" src="assets/img/projects_code/{{projects_code.image}}.jpeg" alt="{{projects_code.name}}"> </div>
+    
+                    <div class="card-body text-center">
+    
+                      <p class="card-title">
+                        <h5>{{projects_code.name}}</h5>
+                      <strong>Task ID: {{projects_code.task}}</strong>
+                      <br>                  
+                      <h6>Category: {{projects_code.category}}</h6>
+                      <h4>{{projects_code.student}}</h4>
+                      <h6>Grade: {{projects_code.grade}}</h6>
+                    </p>
+                    {% if projects_code.description %}
+                    <p class="card-text">
+                        {{projects_code.description}}
+                    </p>
+                    <a href="{{projects_code.link}}" target="_blank">
+                    <button class="btn btn-info">View Project</button>
+                    </a>
+                    {% endif %}
+    
+                    </div>
+    
+                  </div>
+    
+                </div>
+    
+                  {% endfor %}
+    
+              </div>
+    
+            </div>
+    
+          </section>
+
+ <!--projects explore-->
+ <div class="section">
+    
+          <section>
+    
+            <h4 class="text-info text-center" id="mentors"><br>Tasks' Projects (Explore)</h4>
+    
+            <div class="container">
+    
+              <div class="row">
+    
+                {% for projects_explore in site.data.projects_explore %}
+    
+                <div class="avatar-card">
+    
+                  <div class="card card-cascade wider">
+    
+                    <div class="view overlay">
+    
+                      <img class="card-img-top" max-width="100%" height="200px" src="assets/img/projects_explore/{{projects_explore.image}}.jpeg" alt="{{projects_explore.name}}"> </div>
+    
+                    <div class="card-body text-center">
+    
+                      <p class="card-title">
+                        <h5>{{projects_explore.name}}</h5>
+                      <strong>Task ID: {{projects_explore.task}}</strong>
+                      <br>                  
+                      <h6>Category: {{projects_explore.category}}</h6>
+                      <h4>{{projects_explore.student}}</h4>
+                      <h6>Grade: {{projects_explore.grade}}</h6>
+                    </p>
+                    {% if projects_explore.description %}
+                    <p class="card-text">
+                        {{projects_explore.description}}
+                    </p>
+                    <a href="{{projects_explore.link}}" target="_blank">
+                    <button class="btn btn-info">View Project</button>
+                    </a>
+                    {% endif %}
+    
+                    </div>
+    
+                  </div>
+    
+                </div>
+    
+                  {% endfor %}
+    
+              </div>
+    
+            </div>
+    
+          </section>
+
 
     <!--participants-->
 
