@@ -16,7 +16,7 @@
   description: Text to Morse converting programme
   link: https://drive.google.com/open?id=1u_9YXkriFHal0NTDYYgEwXmFSLysUql3
 
-- image: jw
+- image: jjbw1
   name: Scratch Game
   task: 0010C003
   category: Code
@@ -34,7 +34,7 @@
   description: Create a small game using Scratch
   link: https://scratch.mit.edu/projects/220735357/
 
-- image: jbw
+- image: jjbw
   name: Calculator
   task: 0002C001 
   category: Code
