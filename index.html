@@ -42,6 +42,7 @@ layout:
   <!-- CSS Just for demo purpose, don't include it in your project -->
 
   <link href="./assets/css/demo.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css">
 
 </head>
 
@@ -311,38 +312,24 @@ layout:
     
                 {% for projects_design in site.data.projects_design %}
     
-                <div class="avatar-card">
-    
-                  <div class="card card-cascade wider">
-    
-                    <div class="view overlay">
-    
-                      <img class="card-img-top" max-width="100%" height="200px" src="assets/img/projects_design/{{projects_design.image}}.png" alt="{{projects_design.name}}"> </div>
-    
-                    <div class="card-body text-center">
-    
-                      <p class="card-title">
-                        <h5>{{projects_design.name}}</h5>
-                      <strong>Task ID: {{projects_design.task}}</strong>
-                      <br>                  
-                      <h6>Category: {{projects_design.category}}</h6>
-                      <h4>{{projects_design.student}}</h4>
-                      <h6>Grade: {{projects_design.grade}}</h6>
-                    </p>
-                    {% if projects_design.description %}
-                    <p class="card-text">
-                        {{projects_design.description}}
-                    </p>
-                    <a href="{{projects_design.link}}" target="_blank">
-                    <button class="btn btn-info">View Project</button>
+                <div class="product">
+                    <a href="./assets/img/projects_design/{{ projects_design.image }}.png" data-fancybox="quick-view-2" data-type="image">
+                      <img class="fancy-image" src="./assets/img/projects_design/{{ projects_design.image }}.png" />
                     </a>
-                    {% endif %}
-    
+
+                    <div class="d-none">
+
+                      <div class="product-form">
+                        <h3>{{projects_design.name}}</h3>
+                        <span>{{ projects_design.task }}</span>
+                        <ul style="list-style-type: none;">
+                          <li>Name: <b>{{ projects_design.student }}</b></li>
+                          <li>Grade: <b>{{ projects_design.grade }}</b></li>
+                          <li>Description: <b>{{ projects_design.description }}</b></li>
+                        </ul>
+                      </div>
                     </div>
-    
                   </div>
-    
-                </div>
     
                   {% endfor %}
     
@@ -737,7 +724,9 @@ layout:
 <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
 
 <script src="./assets/js/now-ui-kit.js?v=1.1.0 " type="text/javascript "></script>
-
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="./assets/js/popup.js"></script>
 </section>
 
 </div>

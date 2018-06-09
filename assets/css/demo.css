@@ -491,3 +491,171 @@
 .avatar-card{
     position:relative;padding:5px 10px;width:225px;display: inline-block;
 }
+
+/* 
+
+Step 1 - Reposition and redesign fancybox
+=========================================
+
+*/
+
+/* This elements contains both blocks (image slider and description) */
+.fancybox-inner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+  max-width: 800px;
+  max-height: 600px;
+}
+
+/* Left block will contain the slider */
+.fancybox-stage {
+  width: 52%;
+  background: #fff;
+}
+
+/* Right block - close button and the form */
+.fancybox-form-wrap {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  bottom: 40px;
+  width: 48%; 
+  background: #fff;
+}
+
+/* Add vertical lines between blocks */
+.fancybox-form-wrap::before, 
+.fancybox-form-wrap::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.fancybox-form-wrap::before {
+  width: 8px;
+  background: #f4f4f4;
+}
+
+.fancybox-form-wrap::after {
+  width: 1px;
+  background: #e9e9e9;
+}
+
+/* Set position and colors for close button */
+.fancybox-button--close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #F0F0F0;
+  color: #222;
+  padding: 7px;
+}
+
+.fancybox-button:hover {
+  color: #111;
+  background: #e4e4e4;
+}
+
+.fancybox-button svg path {
+  stroke-width: 1;
+}
+
+/* Style form, make scrollable */
+.fancybox-inner .product-form {
+  overflow: auto;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  bottom: 50px;
+  left: 0;
+  padding: 0 50px;
+  text-align: center;
+}
+
+/* Remove space around image */
+.fancybox-slide--image {
+  padding: 0;
+}
+
+/* 
+
+Step 2 - Tweak fade animation
+=============================
+
+By default, only content (images) are fading in/out; this will make both blocks fade, too
+*/
+
+
+.fancybox-inner {
+  opacity: 0;
+  transition: opacity .3s;
+}
+
+.fancybox-is-open .fancybox-inner {
+  opacity: 1;
+}
+
+.fancybox-is-closing .fancybox-fx-fade {
+  opacity: 1 !important; /* Prevent double-fading */
+}
+
+/* 
+
+Step 3 - Bullet navigation design
+=================================
+
+*/
+.product-bullets {
+  list-style: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  z-index: 99999;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.product-bullets li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.product-bullets li a {
+  display: block;
+  height: 30px;
+  width: 20px;
+  position: relative;
+}
+
+.product-bullets li a span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 99px;
+  text-indent: -99999px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+}
+
+.product-bullets li.active a span {
+  background: #FF6666;
+}
+
+.fancy-image{
+ position:relative;padding:5px 10px;width:225px;display: inline-block;   
+}
