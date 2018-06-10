@@ -299,7 +299,7 @@ layout:
     </div>
 
 
-  <!--projects-->
+ <!--projects-->
   <div class="section">
     
           <section>
@@ -312,23 +312,28 @@ layout:
     
                 {% for projects_design in site.data.projects_design %}
     
-                <div class="product">
+                <div class="product" >
                     <a class="fancy-image" href="./assets/img/projects_design/{{ projects_design.image }}.png" data-fancybox="quick-view-2" data-type="image">
                       <img class="fancy-image" src="./assets/img/projects_design/{{ projects_design.image }}.png" />
+                      <div align="center" ><h4>{{projects_design.name}}</h4></div>
                     </a>
 
                     <div class="d-none">
 
                       <div class="product-form">
                         <h3>{{projects_design.name}}</h3>
-                        <span>Task ID: {{ projects_design.task }}</span>
-                        <left>
+                        <span>{{ projects_design.task }}</span>
                         <ul style="list-style-type: none;">
                           <li>Name: <b>{{ projects_design.student }}</b></li>
                           <li>Grade: <b>{{ projects_design.grade }}</b></li>
                           <li>Description: <b>{{ projects_design.description }}</b></li>
+
+                    <a href="{{projects_code.link}}" target="_blank">
+                    <button class="btn btn-info">View Project</button>
+                    </a>
+                    
                         </ul>
-                        </left>
+                        </ul>
                       </div>
                     </div>
                   </div>
@@ -354,39 +359,33 @@ layout:
               <div class="row">
     
                 {% for projects_code in site.data.projects_code %}
-    
-                <div class="avatar-card">
-    
-                  <div class="card card-cascade wider">
-    
-                    <div class="view overlay">
-    
-                      <img class="card-img-top" max-width="100%" height="200px" src="assets/img/projects_code/{{projects_code.image}}.jpeg" alt="{{projects_code.name}}"> </div>
-    
-                    <div class="card-body text-center">
-    
-                      <p class="card-title">
-                        <h5>{{projects_code.name}}</h5>
-                      <strong>Task ID: {{projects_code.task}}</strong>
-                      <br>                  
-                      <h6>Category: {{projects_code.category}}</h6>
-                      <h4>{{projects_code.student}}</h4>
-                      <h6>Grade: {{projects_code.grade}}</h6>
-                    </p>
-                    {% if projects_code.description %}
-                    <p class="card-text">
-                        {{projects_code.description}}
-                    </p>
+               <div class="product">
+                    <a class="fancy-image" href="./assets/img/projects_code/{{ projects_code.image }}.jpeg" data-fancybox="quick-view-2" data-type="image">
+                      <img class="fancy-image" src="./assets/img/projects_code/{{ projects_code.image }}.jpeg" />
+                     <div align="center"><h4>{{projects_code.name}}</h4></div>
+                    </a>
+
+
+
+                    <div class="d-none">
+
+                      <div class="product-form">
+                        <h3>{{projects_code.name}}</h3>
+                        <span>{{ projects_code.task }}</span>
+                        <ul style="list-style-type: none;">
+                          <li>Name: <b>{{ projects_code.student }}</b></li>
+                          <li>Grade: <b>{{ projects_code.grade }}</b></li>
+                          <li>Description: <b>{{ projects_code.description }}</b></li>
+                          </p>
+
                     <a href="{{projects_code.link}}" target="_blank">
                     <button class="btn btn-info">View Project</button>
                     </a>
-                    {% endif %}
-    
+                    
+                        </ul>
+                      </div>
                     </div>
-    
                   </div>
-    
-                </div>
     
                   {% endfor %}
     
@@ -394,10 +393,12 @@ layout:
     
             </div>
     
+    
           </section>
 
  <!--projects explore-->
- <div class="section">
+
+<div class="section">
     
           <section>
     
@@ -408,45 +409,40 @@ layout:
               <div class="row">
     
                 {% for projects_explore in site.data.projects_explore %}
-    
-                <div class="avatar-card">
-    
-                  <div class="card card-cascade wider">
-    
-                    <div class="view overlay">
-    
-                      <img class="card-img-top" max-width="100%" height="200px" src="assets/img/projects_explore/{{projects_explore.image}}.jpeg" alt="{{projects_explore.name}}"> </div>
-    
-                    <div class="card-body text-center">
-    
-                      <p class="card-title">
-                        <h5>{{projects_explore.name}}</h5>
-                      <strong>Task ID: {{projects_explore.task}}</strong>
-                      <br>                  
-                      <h6>Category: {{projects_explore.category}}</h6>
-                      <h4>{{projects_explore.student}}</h4>
-                      <h6>Grade: {{projects_explore.grade}}</h6>
-                    </p>
-                    {% if projects_explore.description %}
-                    <p class="card-text">
-                        {{projects_explore.description}}
-                    </p>
+               <div class="product">
+                    <a class="fancy-image" href="./assets/img/projects_explore/{{ projects_explore.image }}.jpeg" data-fancybox="quick-view-2" data-type="image">
+                      <img class="fancy-image" src="./assets/img/projects_explore/{{ projects_explore.image }}.jpeg" />
+                     <div align="center"><h4>{{projects_explore.name}}</h4></div>
+                    </a>
+
+
+
+                    <div class="d-none">
+
+                      <div class="product-form">
+                        <h3>{{projects_explore.name}}</h3>
+                        <span>{{ projects_explore.task }}</span>
+                        <ul style="list-style-type: none;">
+                          <li>Name: <b>{{ projects_explore.student }}</b></li>
+                          <li>Grade: <b>{{ projects_explore.grade }}</b></li>
+                          <li>Description: <b>{{ projects_explore.description }}</b></li>
+                          </p>
+
                     <a href="{{projects_explore.link}}" target="_blank">
                     <button class="btn btn-info">View Project</button>
                     </a>
-                    {% endif %}
-    
+                    
+                        </ul>
+                      </div>
                     </div>
-    
                   </div>
-    
-                </div>
     
                   {% endfor %}
     
               </div>
     
             </div>
+    
     
           </section>
 
