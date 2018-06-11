@@ -1,13 +1,25 @@
+- name: Inuka Sanudaya Batawala
+  class: Grade 7
+  image: 11
+
+- name: Heliya Nithira Suriya Bandara
+  class: Grade 11
+  image: 22
+
+- name: J.A. Davindu Reshan
+  class: Grade 11
+  image: 44
+
+- name: L. Gothira Sathnindu Mendis
+  class: Grade 9
+  image: 33
+
 - name: H. Jayasahan Hansana
   class: Grade 10
   image: avatar
 
 - name: Janidu Arinda Fernando
   class: Grade 9
-  image: avatar
-
-- name: Heliya Nithira Suriya Bandara
-  class: Grade 11
   image: avatar
 
 - name: W.M. Janiru Damsath Bandara
@@ -34,16 +46,8 @@
   class: Grade 8
   image: avatar
 
-- name: Inuka Sanudaya Batawala
-  class: Grade 7
-  image: avatar
-
 - name: J.B. Bihandu Semal
   class: Grade 9
-  image: avatar
-
-- name: J.A. Davindu Reshan
-  class: Grade 11
   image: avatar
 
 - name: Chamod Nilushanka Perera
@@ -104,10 +108,6 @@
 
 - name: K.W. Sanithu Hasmal Kudaliyana
   class: Grade 8
-  image: avatar
-
-- name: L. Gothira Sathnindu Mendis
-  class: Grade 9
   image: avatar
   
 - name: J.A. Gamitha Kalsara Jayalath
