@@ -298,55 +298,7 @@ layout:
 
     </div>
 
-
- <!--projects-->
-  <div class="section">
-    
-          <section>
-    
-            <h4 class="text-info text-center" id=""><br>Tasks' Projects (Design) </h4>
-    
-            <div class="container">
-    
-              <div class="row">
-    
-                {% for projects_design in site.data.projects_design %}
-    
-                <div class="product" >
-                    <a class="fancy-image" href="./assets/img/projects_design/{{ projects_design.image }}.png" data-fancybox="quick-view-2" data-type="image">
-                      <img class="fancy-image" src="./assets/img/projects_design/{{ projects_design.image }}.png" />
-                      <div align="center" ><h4>{{projects_design.name}}</h4></div>
-                    </a>
-
-                    <div class="d-none">
-
-                      <div class="product-form">
-                        <h3>{{projects_design.name}}</h3>
-                        <span>{{ projects_design.task }}</span>
-                        <ul style="list-style-type: none;">
-                          <li>Name: <b>{{ projects_design.student }}</b></li>
-                          <li>Grade: <b>{{ projects_design.grade }}</b></li>
-                          <li>Description: <b>{{ projects_design.description }}</b></li>
-
-                    <a href="{{projects_code.link}}" target="_blank">
-                    <button class="btn btn-info">View Project</button>
-                    </a>
-                    
-                        </ul>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-    
-                  {% endfor %}
-    
-              </div>
-    
-            </div>
-    
-          </section>
-
- <!--projects code-->
+<!--projects code-->
 
 <div class="section">
     
@@ -396,6 +348,54 @@ layout:
     
           </section>
 
+ <!--projects design-->
+  <div class="section">
+    
+          <section>
+    
+            <h4 class="text-info text-center" id=""><br>Tasks' Projects (Design) </h4>
+    
+            <div class="container">
+    
+              <div class="row">
+    
+                {% for projects_design in site.data.projects_design %}
+    
+                <div class="product" >
+                    <a class="fancy-image" href="./assets/img/projects_design/{{ projects_design.image }}.png" data-fancybox="quick-view-2" data-type="image">
+                      <img class="fancy-image" src="./assets/img/projects_design/{{ projects_design.image }}.png" />
+                      <div align="center" ><h4>{{projects_design.name}}</h4></div>
+                    </a>
+
+                    <div class="d-none">
+
+                      <div class="product-form">
+                        <h3>{{projects_design.name}}</h3>
+                        <span>{{ projects_design.task }}</span>
+                        <ul style="list-style-type: none;">
+                          <li>Name: <b>{{ projects_design.student }}</b></li>
+                          <li>Grade: <b>{{ projects_design.grade }}</b></li>
+                          <li>Description: <b>{{ projects_design.description }}</b></li>
+
+                    <a href="{{projects_code.link}}" target="_blank">
+                    <button class="btn btn-info">View Project</button>
+                    </a>
+                    
+                        </ul>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+    
+                  {% endfor %}
+    
+              </div>
+    
+            </div>
+    
+          </section>
+
+ 
  <!--projects explore-->
 
 <div class="section">
