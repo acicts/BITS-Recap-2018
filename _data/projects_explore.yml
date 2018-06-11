@@ -25,6 +25,33 @@
   description: Create a task for BITS competiton
   link: https://drive.google.com/file/d/1SfAcnaP_W8ZfntBQoN1ubnaFPg8jIGEs/view
 
+- image: am
+  name: Creating a task
+  task: 0020E006
+  category: Explore
+  student: Ajantha Mendis
+  grade: 09
+  description: Create a task for BITS competiton
+  link: https://drive.google.com/open?id=1fbTk_oV3DuD5y1PlPQtgBn5nosoAsTSo
+
+- image: jf
+  name: Create a blog about BITS
+  task: 0009E003
+  category: Explore
+  student: Janidu Fernando
+  grade: 09
+  description: Create a blog about BITS on the topic of What is BITS
+  link: Bitsacicts.simplesite.com
+
+- image: jhh
+  name: Create a document about FOSS
+  task: 0011E004
+  category: Explore
+  student: Jayasahan Hansana
+  grade: 10
+  description: Create a document explaining what FOSS are
+  link: https://drive.google.com/open?id=12UJYQrkfF-lcFIPGAPrQqU81TJxj3jst
+
 
 
 

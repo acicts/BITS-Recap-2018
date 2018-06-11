@@ -52,7 +52,32 @@
   description: Create a simple calculator
   link: https://drive.google.com/file/d/1JYCiYqpig7_Ap3tlnDEHxNGn52q9AG5d/view?usp=drive_web
 
+- image: gj
+  name: Calculator
+  task: 0003C002
+  category: Code
+  student: Gamitha Jayalath
+  grade: 09
+  description: Create a simple alert system with an alarm
+  link: https://drive.google.com/open?id=0B1MfOfLHT1FqWmNLbXllZTAyd1hjTDF3SUFvTHVUTW1XdDcw
 
+- image: dr
+  name: Calculator
+  task: 0002C001 
+  category: Code
+  student: Chamuthu Edirisooriya
+  grade: 10
+  description: Create a simple calculator
+  link: https://drive.google.com/file/d/1hOGdtDDBCBLMiECReobqTxexnp-RsfSu/view?usp=drivesdk
+
+- image: bs
+  name: Create a game using Scratch
+  task: 0010C003
+  category: Code
+  student: Bihandu Semal
+  grade: 09
+  description: Create a simple game using Scratch
+  link: https://scratch.mit.edu/projects/220996344/
 
 
 
