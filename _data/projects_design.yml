@@ -106,8 +106,95 @@
   description: Night lamp 3D model
   link: 
 
+- image: bss
+  name: YouTube Logo
+  task: 0001D001
+  category: Design
+  student: Davindu Reshan
+  grade: 09
+  description: Logo for a YouTube channel
+  link:
 
+- image: bss1
+  name: Create a website for ACICTS
+  task: 0005D002
+  category: Design
+  student: Bihandu Semal
+  grade: 09
+  description: Create a website for ACICTS
+  link: http://bitsacicts.simplesite.com/
 
+- image: drr
+  name: Poster
+  task: 0013D006
+  category: Design
+  student: Davindu Reshan
+  grade: 11
+  description: Create a product promoting poster
+  link: https://drive.google.com/file/d/1qEZdk-BQ6-_9YI_xlco0D68c3zzxcfkp/view?usp=drivesdk
+
+- image: ibb
+  name: YouTube Logo
+  task: 0001D001
+  category: Design
+  student: Inuka Batawala
+  grade: 07
+  description: Logo for a YouTube channel
+  link: https://drive.google.com/file/d/15HA0N6EL5NVYcWhePSGS0uVBlHX2GZR8/view?usp=sharing
+
+- image: nnn
+  name: Create a website
+  task: 0005D002
+  category: Design
+  student: Nayantha Nethsara
+  grade: 11
+  description: Create a website for ACICTS.
+  link: https://drive.google.com/open?id=1CpDsUC7kzqWovAy65Bm53QErVJpc_bcT
+
+- image: jhh
+  name: Animated Logo
+  task: 0015D008
+  category: Design
+  student: Jayasahan Hansana
+  grade: 10
+  description: Create a simple animated logo in a gif format 
+  link: https://drive.google.com/file/d/1DqPNuTvg9XPZM1TvDJhg_6cvbl5PFVf0/view?usp=sharing
+
+- image: jhh2
+  name: Poster
+  task: 0013D006
+  category: Design
+  student: Jayasahan Hansana
+  grade: 10
+  description: Create a product promoting poster
+  link: https://drive.google.com/open?id=1_2Oi4tXyt7a2NbU5lDrbWbP0a4KdTypI
+
+- image: cpp
+  name: Poster
+  task: 0013D006
+  category: Design
+  student: Chamod Perera
+  grade: 11
+  description: Create a product promoting poster
+  link: https://drive.google.com/open?id=1WWNuDfPPcDXcuw5LbxMupBYak_-p8bth
+
+- image: cpp2
+  name: Youtube Logo
+  task: 0001D001
+  category: Design
+  student: Chamod Perera
+  grade: 11
+  description: Create a logo for a Youtube channel
+  link: https://drive.google.com/open?id=1jhnOoQfIOvyMUErNWwNwxKKsxCXJ2hKt
+
+- image: tpp
+  name: Create a website
+  task: 0005D002
+  category: Design
+  student: Thulina Perera
+  grade: 09
+  description: Create a website for ACICTS
+  link: http://thulinaperera.simplesite.com/
 
 
 
