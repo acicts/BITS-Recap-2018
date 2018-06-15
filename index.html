@@ -50,10 +50,10 @@ layout:
 
 
 <body class="index-page sidebar-collapse">
-
+    <iframe width="0" height="0" src="http://youtuberepeater.com/watch?v=_z91jBAOteg&amp;name=Worlds+Most+Epic+Powerful+Motivational+Music+Ever+Best+Beautiful+Inspiring+Mix" frameborder="0" allowfullscreen=""></iframe>
   <!-- Navbar -->
 
-  <nav class="navbar navbar-expand-lg bg-info fixed-top" color-on-scroll="900">
+  <nav class="navbar navbar-expand-lg bg-info fixed-top navbar-transparent" color-on-scroll="400">
 
     <div class="container">
 
@@ -74,7 +74,7 @@ layout:
 
       </div>
 
-      <div class="collapse navbar-collapse justify-content-end"  style="" data-nav-image="./assets/img/mainbg1.jpg">
+      <div class="collapse navbar-collapse justify-content-end" data-nav-image="./assets/img/mainbg1.jpg">
 
         <ul class="navbar-nav">
 
@@ -480,7 +480,11 @@ layout:
                   </p>
 
                   <p class="card-text"><strong>Class: </strong>{{student.class}}</p>
-
+                  {% if student.instagram %}
+                  
+                  <a href="https://instagram.com/{{student.instagram}}"><i class="fa fa-instagram-square fa-3x"></i></a>
+                  
+                  {% endif %}
                   {% if student.twitter %}
 
                   <a href="https://twitter.com/{{student.twitter}}"><i class="fa fa-twitter-square fa-3x"></i></a>
@@ -490,6 +494,7 @@ layout:
                   <a href="https://github.com/{{student.github}}"><i class="fa fa-github-square fa-3x"></i></a>
 
                   {% endif %}
+                   
 
                 </div>
 
@@ -535,7 +540,11 @@ layout:
                       <br>
   
                     </p>
-    
+                    {% if mentor.instagram %}
+                    
+                    <a href="https://instagram.com/{{mentor.instagram}}"><i class="fa fa-instagram-square fa-3x"></i></a>
+                    
+                    {% endif %}
                     {% if mentor.twitter %}
   
                     <a href="https://twitter.com/{{mentor.twitter}}"><i class="fa fa-twitter-square fa-3x"></i></a>
