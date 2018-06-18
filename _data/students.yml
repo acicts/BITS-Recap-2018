@@ -14,10 +14,6 @@
   class: Grade 9
   image: 33
 
-- name: H. Jayasahan Hansana
-  class: Grade 10
-  image: avatar
-
 - name: Janidu Arinda Fernando
   class: Grade 9
   image: janidu
@@ -30,6 +26,32 @@
 - name: T. Nethula Roshane Peiris
   class: Grade 7
   image: nethula
+
+- name: J.B. Bihandu Semal
+  class: Grade 9
+  image: bihandu
+  github: bihathegamer
+
+- name: Chamod Nilushanka Perera
+  class: Grade 11
+  image: chamod
+
+- name: M.M.A. Pahan Samudika Abhayawardhane
+  class: Grade 11
+  image: pahan
+
+- name: K.A. Samiru Thisaraka De Silva
+  class: Grade 11
+  image: samiru
+
+- name: Nayantha Nethsara Senavithilaka
+  class: Grade 10
+  image: avatar
+  instagram: nayantha.nethsara
+
+- name: H. Jayasahan Hansana
+  class: Grade 10
+  image: avatar
 
 - name: Thulina Dinsara Perera
   class: Grade 9
@@ -47,20 +69,6 @@
   class: Grade 8
   image: avatar
 
-- name: J.B. Bihandu Semal
-  class: Grade 9
-  image: bihandu
-  github: bihathegamer
-
-- name: Chamod Nilushanka Perera
-  class: Grade 11
-  image: chamod
-
-- name: Nayantha Nethsara Senavithilaka
-  class: Grade 10
-  image: avatar
-  instagram: nayantha.nethsara
-
 - name: E.A. Chamuthu Megha Malhara Edirisooriya
   class: Grade 10
   image: avatar
@@ -72,14 +80,6 @@
 - name: R.M. Tenura Geenath
   class: Grade 8
   image: avatar
-
-- name: M.M.A. Pahan Samudika Abhayawardhane
-  class: Grade 11
-  image: pahan
-
-- name: K.A. Samiru Thisaraka De Silva
-  class: Grade 11
-  image: samiru
 
 - name: Benul Chenuka Wijwrathne
   class: Grade 11

@@ -1,56 +1,61 @@
 - name: Binath Lakvidhu
-  class: Grade 13
+  class: 13
   image: binath
   github: Binath
   twitter: BinathL
+  instagram: _.binath._
   
-- name: Supun Tharinda Edirisuriya
-  class: Grade 11
+- name: Supun Tharinda
+  class: 11
   image: supun_tharinda
   github: STEdirisuriya
   twitter: Supun_Tharinda_
   instagram: supun_tharinda_2002
 
 - name: Owin Gunawardena
-  class: Grade 13
+  class: 13
   image: owin
   github: NotOogy
   twitter: OwinOmal
+  instagram: owin_yo_
 
 - name: Hasala Heyianthuduwa
-  class: Grade 11
+  class: 11
   image: Hasala
 
 - name: Pawara Navojith
-  class: Grade 13
+  class: 13
   image: pawara
   twitter: PawaraNavojith
+  instagram: pawaranavojith
 
 - name: Dinuk De Silva
-  class: Grade 13
+  class: 13
   image: dinuk
   twitter: dinuklolitha
+  instagram: _deltanemesis_
 
 - name: Pasan Perera
-  class: Grade 13
+  class: 13
   image: pasan
+  instagram: __pasan___
 
-- name: Maneth Bimsara Edirirmuni
-  class: Grade 11
+- name: Maneth Bimsara 
+  class: 11
   image: maneth
   twitter: Maneth_Bimsara
 
 - name: Hasalu Botheju
-  class: Grade 11
+  class: 11
   image: hasalu
 
 - name: Adeesh Perera
-  class: Grade 11
+  class: 11
   image: mentor
   github: AdeeshPe
   twitter: adeeshpe
 
 - name: Induwara Ranathunga
-  class: Grade 11
+  class: 11
   image: mentor
   instagram: induu_96
