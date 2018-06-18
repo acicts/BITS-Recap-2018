@@ -10,12 +10,12 @@
 
 - name: Maneth Bimsara Edirirmuni
   class: Grade 11
-  image: mentor
+  image: maneth
   twitter: Maneth_Bimsara
 
 - name: Hasalu Botheju
   class: Grade 11
-  image: mentor
+  image: hasalu
 
 - name: Adeesh Perera
   class: Grade 11
@@ -24,13 +24,5 @@
   twitter: adeeshpe
 
 - name: Induwara Ranathunga
-  class: Grade 11
-  image: mentor
-
-- name: Nipun Demintha Kapuwella
-  class: Grade 11
-  image: mentor
-
-- name: Kasun Vishwajith Vithanage
   class: Grade 11
   image: mentor
