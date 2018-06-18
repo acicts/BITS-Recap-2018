@@ -52,11 +52,7 @@ layout:
 <body class="index-page sidebar-collapse">
   <!-- Navbar -->
 
-<<<<<<< HEAD
-  <nav class="navbar navbar-expand-lg bg-info navbar-transparent fixed-top " color-on-scroll="400">
-=======
   <nav class="navbar navbar-expand-lg bg-info fixed-top" color-on-scroll="400">
->>>>>>> 0bf47e0bff3e793c7a31c121f48e2985dce66ea2
 
     <div class="container">
 
@@ -483,21 +479,22 @@ layout:
                   </p>
 
                   <p class="card-text"><strong>Class: </strong>{{student.class}}</p>
+                  {% if student.github %}
+                  
+                                    <a href="https://github.com/{{student.github}}" target="blank"><i class="fa fa-github-square fa-3x"></i></a>
+                  
+                                    {% endif %}
+                                     
                   {% if student.instagram %}
                   
-                  <a href="https://instagram.com/{{student.instagram}}"><i class="fa fa-instagram-square fa-3x"></i></a>
+                  <a href="https://instagram.com/{{student.instagram}}" target="blank"><i class="fa fa-instagram-square fa-3x"></i></a>
                   
                   {% endif %}
                   {% if student.twitter %}
 
-                  <a href="https://twitter.com/{{student.twitter}}"><i class="fa fa-twitter-square fa-3x"></i></a>
-
-                  {% endif %}{% if student.github %}
-
-                  <a href="https://github.com/{{student.github}}"><i class="fa fa-github-square fa-3x"></i></a>
+                  <a href="https://twitter.com/{{student.twitter}}" target="blank"><i class="fa fa-twitter-square fa-3x"></i></a>
 
                   {% endif %}
-                   
 
                 </div>
 
@@ -539,29 +536,31 @@ layout:
                     <p class="card-title">
   
                       <strong>{{mentor.name}}</strong>
+                      <br>Grade: {{mentor.class}}
   
                       <br>
   
                     </p>
-                    {% if mentor.instagram %}
                     
-                    <a href="https://instagram.com/{{mentor.instagram}}"><i class="fa fa-instagram-square fa-3x"></i></a>
+                    {% if mentor.github %}
                     
-                    {% endif %}
+                                      <a href="https://github.com/{{mentor.github}}" target="blank"><i class="fa fa-github-square fa-3x"></i></a>
+                    
+                                      {% endif %}
+                    
                     {% if mentor.twitter %}
   
-                    <a href="https://twitter.com/{{mentor.twitter}}"><i class="fa fa-twitter-square fa-3x"></i></a>
+                    <a href="https://twitter.com/{{mentor.twitter}}" target="blank"><i class="fa fa-twitter-square fa-3x"></i></a>
   
                     {% endif %}{% if mentor.facebook %}
                     
-                     <a href="https://facebook.com/{{mentor.facebook}}"><i class="fa fa-facebook-square fa-3x"></i></a>
+                     <a href="https://facebook.com/{{mentor.facebook}}" target="blank"><i class="fa fa-facebook-square fa-3x"></i></a>
                      {% endif %}
-                     {% if mentor.github %}
-  
-                    <a href="https://github.com/{{mentor.github}}"><i class="fa fa-github-square fa-3x"></i></a>
-  
-                    {% endif %}
-  
+                     {% if mentor.instagram %}
+                     
+                     <a href="https://www.instagram.com/{{mentor.instagram}}" target="blank"><i class="fa fa-instagram fa-3x"></i></a>
+                     
+                     {% endif %}
                   </div>
   
                 </div>
