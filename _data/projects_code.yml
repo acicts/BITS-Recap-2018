@@ -142,3 +142,12 @@
   description: Create a notepad - CE NotePad V1.0
   link: https://drive.google.com/open?id=1DDA0BwtA9knUnwSx_qEhfA2uV_nLvEkx
 
+- image: Screenshot (63)
+  name: Create a Calculator
+  task: 0002C001 
+  category: Code
+  student: Nithika Senaweera
+  grade: 
+  description: Create a simple calculator
+  link: https://drive.google.com/open?id=1UAadEO-Sjj7_mOJNiFOSqPlrxEqFXLF4
+
