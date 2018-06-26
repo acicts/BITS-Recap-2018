@@ -1,0 +1,81 @@
+- image: bh2
+  name: Explore about GitHub
+  task: 0009E003
+  category: Explore
+  student: Bihandu Semal
+  grade: 09
+  description: Website about GitHub
+  link: https://bitscompetition.blogspot.com/
+
+- image: jh
+  name: Presentation
+  task: 0012D005
+  category: Explore
+  student: Jayasahan Hansana
+  grade: 10
+  description: Presentation about a daily used software
+  link: https://drive.google.com/file/d/1KuPYJ69qeQkybL0dvhDOqiHpE5DRgWqq/view?ts=5b03fe65
+
+- image: ce
+  name: Creating a task
+  task: 0020E006
+  category: Explore
+  student: Chamuth Edirisooriya 
+  grade: 10
+  description: Create a task for BITS competiton
+  link: https://drive.google.com/file/d/1SfAcnaP_W8ZfntBQoN1ubnaFPg8jIGEs/view
+
+- image: am
+  name: Creating a task
+  task: 0020E006
+  category: Explore
+  student: Ajantha Mendis
+  grade: 09
+  description: Create a task for BITS competiton
+  link: https://drive.google.com/open?id=1fbTk_oV3DuD5y1PlPQtgBn5nosoAsTSo
+
+- image: jf
+  name: Create a blog about BITS
+  task: 0009E003
+  category: Explore
+  student: Janidu Fernando
+  grade: 09
+  description: Create a blog about BITS on the topic of What is BITS
+  link: Bitsacicts.simplesite.com
+
+- image: jhh
+  name: Create a document about FOSS
+  task: 0011E004
+  category: Explore
+  student: Jayasahan Hansana
+  grade: 10
+  description: Create a document about FOSS
+  link: https://drive.google.com/open?id=12UJYQrkfF-lcFIPGAPrQqU81TJxj3jst
+
+- image: qq
+  name: Blog about participated Events
+  task: 0026E011 
+  category: Explore
+  student: Heliya Nithira Suriya Bandara
+  grade: 10
+  description: Take part in 2 events and make a Blog about what was completed
+  link: http://heliya123.simplesite.com/
+
+- image: Screenshot (64)
+  name: Create a document about FOSS
+  task: 0011E004  
+  category: Explore
+  student: Chamuthu Edirisooriya
+  grade: 10
+  description: Create a document about FOSS
+  link: https://drive.google.com/file/d/1AGCXSJ80WyzfmHqTd3QkMSG7fBPrGa7U/view
+
+- image: Screenshot (66)
+  name: Create a document about FOSS
+  task: 0011E004  
+  category: Explore
+  student: Nithika Senaweera
+  grade: 10
+  description: Create a document about FOSS
+  link: https://drive.google.com/open?id=1tfKnbHcVDLS5z7RJwjSZeE5ehueuCybM
+

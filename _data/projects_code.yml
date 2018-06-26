@@ -1,0 +1,153 @@
+- image: cy
+  name: Scratch game
+  task: 0010C003
+  category: Code
+  student: Chandupa Yasas 
+  grade: 10
+  description: A game that is made using online scratch
+  link: https://scratch.mit.edu/projects/224168082/
+
+- image: cc
+  name: Morse Programme
+  task: 0016C004
+  category: Code
+  student: _chamod_
+  grade: 11
+  description: Text to Morse converting programme
+  link: https://drive.google.com/open?id=1u_9YXkriFHal0NTDYYgEwXmFSLysUql3
+
+- image: jjbw1
+  name: Scratch Game
+  task: 0010C003
+  category: Code
+  student: Janiru Wijekoon
+  grade: 07
+  description: Small Game using Scratch
+  link: https://scratch.mit.edu/projects/220473559/#player 
+
+- image: ib
+  name: Scratch Game
+  task: 0010C003
+  category: Code
+  student: Inuka Batawala
+  grade: 10
+  description: Create a small game using Scratch
+  link: https://scratch.mit.edu/projects/220735357/
+
+- image: jjbw
+  name: Calculator
+  task: 0002C001 
+  category: Code
+  student: Janiru Wijekoon
+  grade: 07
+  description: Create a simple calculator
+  link: 
+
+- image: cme
+  name: Calculator
+  task: 0002C001 
+  category: Code
+  student: Chamuthu Edirisooriya
+  grade: 10
+  description: Create a simple calculator
+  link: https://drive.google.com/file/d/1JYCiYqpig7_Ap3tlnDEHxNGn52q9AG5d/view?usp=drive_web
+
+- image: gj
+  name: Calculator
+  task: 0003C002
+  category: Code
+  student: Gamitha Jayalath
+  grade: 09
+  description: Create a simple alert system with an alarm
+  link: https://drive.google.com/open?id=0B1MfOfLHT1FqWmNLbXllZTAyd1hjTDF3SUFvTHVUTW1XdDcw
+
+- image: dr
+  name: Calculator
+  task: 0002C001 
+  category: Code
+  student: Chamuthu Edirisooriya
+  grade: 10
+  description: Create a simple calculator
+  link: https://drive.google.com/file/d/1hOGdtDDBCBLMiECReobqTxexnp-RsfSu/view?usp=drivesdk
+
+- image: bs
+  name: Create a game using Scratch
+  task: 0010C003
+  category: Code
+  student: Bihandu Semal
+  grade: 09
+  description: Create a simple game using Scratch
+  link: https://scratch.mit.edu/projects/220996344/
+
+- image: 34984949_729001067490766_7298191369200205824_n
+  name: Create a game using Scratch
+  task: 0010C003
+  category: Code
+  student: Upek Kasun Akalanka
+  grade: 10
+  description: Super Mario game from scratch
+  link: https://scratch.mit.edu/projects/227132922/
+
+- image: qq
+  name: Create a mini game using Scratch
+  task: 0010C002
+  category: Code
+  student: Heliya Nithira Suriya Bandara
+  grade: 10
+  description: A mini game from scratch
+  link: https://drive.google.com/open?id=1Co9Rg1deU1eqW5punHC-X5qOy0J3wGLF
+
+- image: ww
+  name: Create a simple calculator
+  task: 0002C001
+  category: Code
+  student: Pahan Samudika Abhayawardhane
+  grade: 11
+  description: Create a simple calculator
+  link: https://drive.google.com/open?id=1_4L7NkninMcLPDnbKbKW5Xhe-Xd_vclh
+
+- image: ee
+  name: Create microbit project
+  task: 0036C012
+  category: Code
+  student: Janiru Wijekoon
+  grade: 10
+  description: Create microbit project
+  link: https://makecode.microbit.org/_R5qaroApfFcY
+
+- image: rr
+  name: Make an alarm clock
+  task: 0027C007
+  category: Code
+  student: Upek Kasun Akalanka
+  grade: 11
+  description: Make an alarm clock
+  link: https://drive.google.com/file/d/1_qQNLLcGK-2KlQHrQ38eJImBhp5GihHt/view?usp=sharing
+
+- image: tt
+  name: Create a Toss program
+  task: 0018C005
+  category: Code
+  student: Davindu Reshan
+  grade: 11
+  description: Creating a Toss program
+  link: https://drive.google.com/folderview?id=1i0ra9nMNvfn2kL25yUC2YnNXCOdm4Br7
+
+- image: yy
+  name: Create a notepad
+  task: 0010C003
+  category: Code
+  student: Chamuthu Edirisooriya
+  grade: 10
+  description: Create a notepad - CE NotePad V1.0
+  link: https://drive.google.com/open?id=1DDA0BwtA9knUnwSx_qEhfA2uV_nLvEkx
+
+- image: Screenshot (63)
+  name: Create a Calculator
+  task: 0002C001 
+  category: Code
+  student: Nithika Senaweera
+  grade: 
+  description: Create a simple calculator
+  link: https://drive.google.com/open?id=1UAadEO-Sjj7_mOJNiFOSqPlrxEqFXLF4
+

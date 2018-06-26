@@ -13,16 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: BITS
+email: bits.acicts@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  BITS 2018, the Intra-School practice-based ICT competition is organized by the Ananda College ICT Society for the first time in Sri Lanka with the intention of providing platform to our school students and polish their IT knowledge in the different fields of ICT.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://bits18.acicts.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: acicts
+github_username:  acicts
 
 # Build settings
 markdown: kramdown
