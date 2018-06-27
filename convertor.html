@@ -1,0 +1,82 @@
+<html>
+   <head>
+      <title> Convertor </title>
+      <style>
+         .panel {
+           width:400px;
+           height:160px;
+           background-color: #E6E6FA;
+           border:2px solid blue;  
+           font-weight: bold;
+           font-size: 110%;   
+           margin-left:30px;
+           margin-top:15px; 
+         }    
+         p {
+           margin-left: 30px;
+           margin-top: 15px;
+         }
+         form {
+           margin-left: 30px;
+           margin-top: 15px;
+         }
+         button {
+           margin-left:40px;
+           margin-top:10px;
+         }
+         .answer {
+           width:400px;
+           height:90px;
+           background-color: #E6E6FA;
+           border:2px solid blue;  
+           font-weight: bold;
+           font-size: 110%;   
+           margin-left:30px;
+           margin-top:15px; 
+         }    
+         form {
+           margin-left: 70px;
+           margin-top: 65px;
+         }
+      </style>
+   </head>
+   <body bgcolor= "blue">
+      <div class="panel">
+         <p>
+            Enter decimal number to convert, select Base and click   CONVERT.
+         </p>
+         <input type="text">
+         <select id="selectid" name="selectname">
+            <option value="binary">Binary</option>
+            <option value="octal">Octal</option>
+            <option value="hexadecimal">Hexadecimal</option>
+         </select>
+         <button id="button1" name="Button1">Convert</button>   
+      </div>
+      <div class="answer" id="answer">
+      </div>
+      <script>
+         var Answer = function(e) {
+             var radix;
+             var radixStr = document.getElementById('selectid').value;
+             var val = parseInt(document.getElementsByTagName("input")[0].value);
+             switch(radixStr) {
+               case "binary":
+                 radix = 2;
+                 break;
+               case "octal":
+                 radix = 8;
+                 break;
+               case "hexadecimal":
+                 radix = 16;
+                 break;
+             } 
+
+             document.getElementById("answer").innerHTML = val.toString(radix);
+             e.preventDefault();
+             return false;
+          }
+         document.getElementById("button1").addEventListener("click",Answer);
+         </script>
+      </body>
+   </html>
