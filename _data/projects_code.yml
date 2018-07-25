@@ -11,7 +11,7 @@
   name: Morse Programme
   task: 0016C004
   category: Code
-  student: _chamod_
+  student: Chamod Perera
   grade: 11
   description: Text to Morse converting programme
   link: https://drive.google.com/open?id=1u_9YXkriFHal0NTDYYgEwXmFSLysUql3
@@ -53,7 +53,7 @@
   link: https://drive.google.com/file/d/1JYCiYqpig7_Ap3tlnDEHxNGn52q9AG5d/view?usp=drive_web
 
 - image: gj
-  name: Calculator
+  name: Simple Alert System
   task: 0003C002
   category: Code
   student: Gamitha Jayalath
@@ -65,10 +65,11 @@
   name: Calculator
   task: 0002C001 
   category: Code
-  student: Chamuthu Edirisooriya
+  student: Davindu Reshan
   grade: 10
   description: Create a simple calculator
-  link: https://drive.google.com/file/d/1hOGdtDDBCBLMiECReobqTxexnp-RsfSu/view?usp=drivesdk
+  link: https://drive.google.com/file/d/1hOGdtDDBCBLMiECReobqTxexnp-RsfSu/view
+
 
 - image: bs
   name: Create a game using Scratch
@@ -79,7 +80,7 @@
   description: Create a simple game using Scratch
   link: https://scratch.mit.edu/projects/220996344/
 
-- image: 34984949_729001067490766_7298191369200205824_n
+- image: ss
   name: Create a game using Scratch
   task: 0010C003
   category: Code
@@ -119,7 +120,7 @@
   name: Make an alarm clock
   task: 0027C007
   category: Code
-  student: Upek Kasun Akalanka
+  student: Davindu Reshan
   grade: 11
   description: Make an alarm clock
   link: https://drive.google.com/file/d/1_qQNLLcGK-2KlQHrQ38eJImBhp5GihHt/view?usp=sharing
@@ -147,7 +148,186 @@
   task: 0002C001 
   category: Code
   student: Nithika Senaweera
-  grade: 
+  grade: 10
   description: Create a simple calculator
   link: https://drive.google.com/open?id=1UAadEO-Sjj7_mOJNiFOSqPlrxEqFXLF4
 
+- image: cp
+  name: Create a Calculator
+  task: 0002C001 
+  category: Code
+  student: Chamod Perera
+  grade: 11
+  description: Create a simple calculator
+  link: https://drive.google.com/open?id=1g45b8AoueRnUehLCZ5bNLL6emtvUTQmN
+
+- image: ib
+  name: Create a Calculator
+  task: 0002C001 
+  category: Code
+  student: Inuka Batawala
+  grade: 07
+  description: Create a simple calculator
+  link: https://www.awesomescreenshot.com/image/3361872/b0ca3bac90d2730c4e833442ee9abc88
+
+- image: bc
+  name: Create a Calculator
+  task: 0002C001 
+  category: Code
+  student: Benul Chenuka
+  grade: 11
+  description: Create a simple calculator
+  link: https://scratch.mit.edu/projects/225661647/
+
+- image: np
+  name: Create a Calculator
+  task: 0002C001 
+  category: Code
+  student: Nethula Peiris
+  grade: 07
+  description: Create a simple calculator
+  link: https://drive.google.com/file/d/1RqzM_B6gh9ouB1OSHDpARVMJfCg6AjbZ/view?ts=5afc5acb
+
+- image: jh
+  name: Create a Calculator
+  task: 0002C001 
+  category: Code
+  student: Jayasahan Hansana
+  grade: 10
+  description: Create a simple calculator
+  link: https://drive.google.com/open?id=1CNs9A6s9lIyZ1ix-zXgVa4VuvhbJG3U8&usp=gmail
+
+- image: db
+  name: Create a Calculator
+  task: 0002C001 
+  category: Code
+  student: Dulaj Bandara
+  grade: 10
+  description: Create a simple calculator
+  link: https://drive.google.com/open?id=0B1MfOfLHT1FqZFotdW5KRzhuVnNBNlgtZ2F5LWVNLWxvUDNJ  
+
+- image: pb
+  name: Create a Calculator
+  task: 0002C001 
+  category: Code
+  student: Kavindu  Pabasara
+  grade: 10
+  description: Create a simple calculator
+  link: https://drive.google.com/open?id=1DO7cXrzkJcaQdoHaGZpR28qrJKATeMnu
+
+- image: np1
+  name: Simple Alert System
+  task: 0003C002
+  category: Code
+  student: Nethula Peiris
+  grade: 07
+  description: Create a simple alert system with an alarm
+  link: https://drive.google.com/file/d/1_zRD69Sjs9voiO96689ZX6nzXq1a0qbE/view?usp=sharing
+
+- image: aj
+  name: Simple Alert System
+  task: 0003C002
+  category: Code
+  student: Gothira Mendis
+  grade: 09
+  description: Create a simple alert system with an alarm
+  link: https://drive.google.com/open?id=1K-NK7ykUGKSvpLsU6rwMH21g5dblfM7q
+
+- image: bc1
+  name: Scratch Game
+  task: 0010C003
+  category: Code
+  student: Benul Chenuka
+  grade: 11
+  description: Create a small game using Scratch
+  link: https://scratch.mit.edu/projects/222603876/
+  
+- image: np2
+  name: Scratch Game
+  task: 0010C003
+  category: Code
+  student: Nethula Peiris
+  grade: 07
+  description: Create a small game using Scratch
+  link: https://scratch.mit.edu/projects/222776080
+
+- image: pb1
+  name: Scratch Game
+  task: 0010C003
+  category: Code
+  student: Kavindu Pabasara
+  grade: 10
+  description: Create a small game using Scratch
+  link: https://scratch.mit.edu/projects/222109695/ 
+  
+- image: jh1
+  name: Scratch Game
+  task: 0010C003
+  category: Code
+  student: Jayasahan Hansana
+  grade: 10
+  description: Create a small game using Scratch
+  link: https://drive.google.com/file/d/1icybgWPEppe1wHpeoCrgr3G3SJY1v0U1/view 
+
+- image: cme1
+  name: Scratch Game
+  task: 0010C003
+  category: Code
+  student: Chamuthu Edirisooriya
+  grade: 10
+  description: Create a small game using Scratch
+  link: https://drive.google.com/file/d/1moUQadU-iU8GG-73DS4UUlaynEzSjcGi/view 
+
+- image: thu
+  name: Scratch Game
+  task: 0010C003
+  category: Code
+  student: Thulina Perera 
+  grade: 09
+  description: Create a small game using Scratch
+  link: https://scratch.mit.edu/projects/222487477/#editor    
+
+- image: dr1
+  name: Morse Programme
+  task: 0016C004
+  category: Code
+  student: Davindu Reshan
+  grade: 11
+  description: Text to Morse converting programme
+  link: https://drive.google.com/file/d/1m4rQv2AKi3yBigljNOeXzPnUvO7OLsgL/view?usp=drivesdk  
+
+- image: cc1
+  name: Create a Toss program
+  task: 0018C005
+  category: Code
+  student: Chamod Perera
+  grade: 11
+  description: Creating a Toss program
+  link: https://drive.google.com/open?id=1qrCTChrScSjZmlRNRdNn3AWsmYT2_Z47  
+
+- image: np3
+  name: Create a Toss program
+  task: 0018C005
+  category: Code
+  student: Nethula Peiris
+  grade: 07
+  description: Creating a Toss program
+  link: https://drive.google.com/open?id=1iB36mPmtOmDptZXxhkE_QR91QsXx9_h2  
+ 
+- image: aj1
+  name: Traffic Light System
+  task: 0025C006
+  category: Code
+  student: Gothira Mendis
+  grade: 09
+  description: Creating a simple traffic light system
+  link: https://drive.google.com/open?id=18JkaRaI9dkfzWoBvY_FALvLCxyN4hP_3
+
+- image: cc2
+  name: Alarm Clock 
+  task: 0027C007
+  category: Code
+  student: Chamod Perera
+  grade: 11
+  description: Creating a simple alarm clock
+  link: https://drive.google.com/file/d/1syig78JF6UEBCYaDyfwL5VsDLs1Luin7/view

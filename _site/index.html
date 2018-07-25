@@ -35,7 +35,114 @@
 
   <link href="./assets/css/demo.css" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css">
-
+  <style>
+    
+        * {
+            box-sizing: border-box;
+        }
+    
+        img {
+            vertical-align: middle;
+        }
+    
+        /* Position the image containerslider (needed to position the left and right arrows) */
+    
+        .containerslider {
+            position: relative;
+            width: 75%;
+            height: 50%;
+        }
+    
+        /* Hide the images by default */
+    
+        .mySlides {
+            display: none;
+        }
+    
+        /* Add a pointer when hovering over the thumbnail images */
+    
+        .cursor {
+            cursor: pointer;
+        }
+    
+        /* Next & previous buttons */
+    
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 40%;
+            width: auto;
+            padding: 16px;
+            margin-top: -50px;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+    
+        /* Position the "next button" to the right */
+    
+        .prev {
+          left: 0;
+        }
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+    
+        /* On hover, add a black background color with a little bit see-through */
+    
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+    
+        /* Number text (1/3 etc) */
+    
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+    
+        /* Container for image text */
+    
+        .caption-containerslider {
+            text-align: center;
+            background-color: #222;
+            padding: 2px 16px;
+            color: white;
+        }
+    
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    
+        /* Six columns side by side */
+    
+        .column {
+            float: left;
+            width: 16.66%;
+        }
+    
+        /* Add a transparency effect for thumnbail images */
+    
+        .demo {
+            opacity: 0.6;
+        }
+    
+        .active,
+        .demo:hover {
+            opacity: 1;
+        }
+    </style>
 
 </head>
 
@@ -288,7 +395,108 @@
       </section>
 
     </div>
+<!-- events -->
+<center>
+<div class="containerslider">
+    
+  <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+      <img src="./assets/img/events/Employee System.jpg" style="width:100%">
+  </div>
 
+  <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+      <img src="./assets/img/events/JH paint.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+      <img src="img_mountains_wide.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+      <img src="img_lights_wide.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+      <img src="img_nature_wide.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+      <img src="img_snow_wide.jpg" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-containerslider">
+      <p id="caption"></p>
+  </div>
+
+  <div class="row">
+      <div class="column">
+          <img class="demo cursor" src="./assets/img/events/Employee System.jpg" style="width:100%" onclick="currentSlide(1)" alt="Best Programme - Employee Record Management System by Heliya Nithira with language C">
+      </div>
+      <div class="column">
+          <img class="demo cursor" src="./assets/img/events/JH paint.png" style="width:100%" onclick="currentSlide(2)" alt="Programme 2nd place - JH paint by H. Jayasahan Hansana with VB">
+      </div>
+      <div class="column">
+          <img class="demo cursor" src="img_mountains.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+      </div>
+      <div class="column">
+          <img class="demo cursor" src="img_lights.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+      </div>
+      <div class="column">
+          <img class="demo cursor" src="img_nature.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+      </div>
+      <div class="column">
+          <img class="demo cursor" src="img_snow.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+      </div>
+        
+  </div>
+
+
+</div>
+</center>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {
+      slideIndex = 1
+  }
+  if (n < 1) {
+      slideIndex = slides.length
+  }
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex - 1].style.display = "block";
+  dots[slideIndex - 1].className += " active";
+  captionText.innerHTML = dots[slideIndex - 1].alt;
+}
+</script>
+
+<!-- /events-->
 <!--projects code-->
 
 <div class="section">
@@ -345,7 +553,7 @@
                         <h3>Morse Programme</h3>
                         <span>0016C004</span>
                         <ul style="list-style-type: none;">
-                          <li>Name: <b>_chamod_</b></li>
+                          <li>Name: <b>Chamod Perera</b></li>
                           <li>Grade: <b>11</b></li>
                           <li>Description: <b>Text to Morse converting programme</b></li>
                           </p>
@@ -479,7 +687,7 @@
                <div class="product">
                     <a class="fancy-image" href="./assets/img/projects_code/gj.jpeg" data-fancybox="quick-view-2" data-type="image">
                       <img class="fancy-image" src="./assets/img/projects_code/gj.jpeg" />
-                     <div align="center"><h4 class="text-info">Calculator</h4></div>
+                     <div align="center"><h4 class="text-info">Simple Alert System</h4></div>
                     </a>
 
 
@@ -487,7 +695,7 @@
                     <div class="d-none">
 
                       <div class="product-form">
-                        <h3>Calculator</h3>
+                        <h3>Simple Alert System</h3>
                         <span>0003C002</span>
                         <ul style="list-style-type: none;">
                           <li>Name: <b>Gamitha Jayalath</b></li>
@@ -519,12 +727,12 @@
                         <h3>Calculator</h3>
                         <span>0002C001</span>
                         <ul style="list-style-type: none;">
-                          <li>Name: <b>Chamuthu Edirisooriya</b></li>
+                          <li>Name: <b>Davindu Reshan</b></li>
                           <li>Grade: <b>10</b></li>
                           <li>Description: <b>Create a simple calculator</b></li>
                           </p>
 
-                    <a href="https://drive.google.com/file/d/1hOGdtDDBCBLMiECReobqTxexnp-RsfSu/view?usp=drivesdk" target="_blank">
+                    <a href="https://drive.google.com/file/d/1hOGdtDDBCBLMiECReobqTxexnp-RsfSu/view" target="_blank">
                     <button class="btn btn-info">View Project</button>
                     </a>
                     
@@ -564,8 +772,8 @@
     
                   
                <div class="product">
-                    <a class="fancy-image" href="./assets/img/projects_code/34984949_729001067490766_7298191369200205824_n.jpeg" data-fancybox="quick-view-2" data-type="image">
-                      <img class="fancy-image" src="./assets/img/projects_code/34984949_729001067490766_7298191369200205824_n.jpeg" />
+                    <a class="fancy-image" href="./assets/img/projects_code/ss.jpeg" data-fancybox="quick-view-2" data-type="image">
+                      <img class="fancy-image" src="./assets/img/projects_code/ss.jpeg" />
                      <div align="center"><h4 class="text-info">Create a game using Scratch</h4></div>
                     </a>
 
@@ -693,7 +901,7 @@
                         <h3>Make an alarm clock</h3>
                         <span>0027C007</span>
                         <ul style="list-style-type: none;">
-                          <li>Name: <b>Upek Kasun Akalanka</b></li>
+                          <li>Name: <b>Davindu Reshan</b></li>
                           <li>Grade: <b>11</b></li>
                           <li>Description: <b>Make an alarm clock</b></li>
                           </p>
@@ -781,11 +989,591 @@
                         <span>0002C001</span>
                         <ul style="list-style-type: none;">
                           <li>Name: <b>Nithika Senaweera</b></li>
-                          <li>Grade: <b></b></li>
+                          <li>Grade: <b>10</b></li>
                           <li>Description: <b>Create a simple calculator</b></li>
                           </p>
 
                     <a href="https://drive.google.com/open?id=1UAadEO-Sjj7_mOJNiFOSqPlrxEqFXLF4" target="_blank">
+                    <button class="btn btn-info">View Project</button>
+                    </a>
+                    
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+    
+                  
+               <div class="product">
+                    <a class="fancy-image" href="./assets/img/projects_code/cp.jpeg" data-fancybox="quick-view-2" data-type="image">
+                      <img class="fancy-image" src="./assets/img/projects_code/cp.jpeg" />
+                     <div align="center"><h4 class="text-info">Create a Calculator</h4></div>
+                    </a>
+
+
+
+                    <div class="d-none">
+
+                      <div class="product-form">
+                        <h3>Create a Calculator</h3>
+                        <span>0002C001</span>
+                        <ul style="list-style-type: none;">
+                          <li>Name: <b>Chamod Perera</b></li>
+                          <li>Grade: <b>11</b></li>
+                          <li>Description: <b>Create a simple calculator</b></li>
+                          </p>
+
+                    <a href="https://drive.google.com/open?id=1g45b8AoueRnUehLCZ5bNLL6emtvUTQmN" target="_blank">
+                    <button class="btn btn-info">View Project</button>
+                    </a>
+                    
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+    
+                  
+               <div class="product">
+                    <a class="fancy-image" href="./assets/img/projects_code/ib.jpeg" data-fancybox="quick-view-2" data-type="image">
+                      <img class="fancy-image" src="./assets/img/projects_code/ib.jpeg" />
+                     <div align="center"><h4 class="text-info">Create a Calculator</h4></div>
+                    </a>
+
+
+
+                    <div class="d-none">
+
+                      <div class="product-form">
+                        <h3>Create a Calculator</h3>
+                        <span>0002C001</span>
+                        <ul style="list-style-type: none;">
+                          <li>Name: <b>Inuka Batawala</b></li>
+                          <li>Grade: <b>7</b></li>
+                          <li>Description: <b>Create a simple calculator</b></li>
+                          </p>
+
+                    <a href="https://www.awesomescreenshot.com/image/3361872/b0ca3bac90d2730c4e833442ee9abc88" target="_blank">
+                    <button class="btn btn-info">View Project</button>
+                    </a>
+                    
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+    
+                  
+               <div class="product">
+                    <a class="fancy-image" href="./assets/img/projects_code/bc.jpeg" data-fancybox="quick-view-2" data-type="image">
+                      <img class="fancy-image" src="./assets/img/projects_code/bc.jpeg" />
+                     <div align="center"><h4 class="text-info">Create a Calculator</h4></div>
+                    </a>
+
+
+
+                    <div class="d-none">
+
+                      <div class="product-form">
+                        <h3>Create a Calculator</h3>
+                        <span>0002C001</span>
+                        <ul style="list-style-type: none;">
+                          <li>Name: <b>Benul Chenuka</b></li>
+                          <li>Grade: <b>11</b></li>
+                          <li>Description: <b>Create a simple calculator</b></li>
+                          </p>
+
+                    <a href="https://scratch.mit.edu/projects/225661647/" target="_blank">
+                    <button class="btn btn-info">View Project</button>
+                    </a>
+                    
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+    
+                  
+               <div class="product">
+                    <a class="fancy-image" href="./assets/img/projects_code/np.jpeg" data-fancybox="quick-view-2" data-type="image">
+                      <img class="fancy-image" src="./assets/img/projects_code/np.jpeg" />
+                     <div align="center"><h4 class="text-info">Create a Calculator</h4></div>
+                    </a>
+
+
+
+                    <div class="d-none">
+
+                      <div class="product-form">
+                        <h3>Create a Calculator</h3>
+                        <span>0002C001</span>
+                        <ul style="list-style-type: none;">
+                          <li>Name: <b>Nethula Peiris</b></li>
+                          <li>Grade: <b>7</b></li>
+                          <li>Description: <b>Create a simple calculator</b></li>
+                          </p>
+
+                    <a href="https://drive.google.com/file/d/1RqzM_B6gh9ouB1OSHDpARVMJfCg6AjbZ/view?ts=5afc5acb" target="_blank">
+                    <button class="btn btn-info">View Project</button>
+                    </a>
+                    
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+    
+                  
+               <div class="product">
+                    <a class="fancy-image" href="./assets/img/projects_code/jh.jpeg" data-fancybox="quick-view-2" data-type="image">
+                      <img class="fancy-image" src="./assets/img/projects_code/jh.jpeg" />
+                     <div align="center"><h4 class="text-info">Create a Calculator</h4></div>
+                    </a>
+
+
+
+                    <div class="d-none">
+
+                      <div class="product-form">
+                        <h3>Create a Calculator</h3>
+                        <span>0002C001</span>
+                        <ul style="list-style-type: none;">
+                          <li>Name: <b>Jayasahan Hansana</b></li>
+                          <li>Grade: <b>10</b></li>
+                          <li>Description: <b>Create a simple calculator</b></li>
+                          </p>
+
+                    <a href="https://drive.google.com/open?id=1CNs9A6s9lIyZ1ix-zXgVa4VuvhbJG3U8&usp=gmail" target="_blank">
+                    <button class="btn btn-info">View Project</button>
+                    </a>
+                    
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+    
+                  
+               <div class="product">
+                    <a class="fancy-image" href="./assets/img/projects_code/db.jpeg" data-fancybox="quick-view-2" data-type="image">
+                      <img class="fancy-image" src="./assets/img/projects_code/db.jpeg" />
+                     <div align="center"><h4 class="text-info">Create a Calculator</h4></div>
+                    </a>
+
+
+
+                    <div class="d-none">
+
+                      <div class="product-form">
+                        <h3>Create a Calculator</h3>
+                        <span>0002C001</span>
+                        <ul style="list-style-type: none;">
+                          <li>Name: <b>Dulaj Bandara</b></li>
+                          <li>Grade: <b>10</b></li>
+                          <li>Description: <b>Create a simple calculator</b></li>
+                          </p>
+
+                    <a href="https://drive.google.com/open?id=0B1MfOfLHT1FqZFotdW5KRzhuVnNBNlgtZ2F5LWVNLWxvUDNJ" target="_blank">
+                    <button class="btn btn-info">View Project</button>
+                    </a>
+                    
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+    
+                  
+               <div class="product">
+                    <a class="fancy-image" href="./assets/img/projects_code/pb.jpeg" data-fancybox="quick-view-2" data-type="image">
+                      <img class="fancy-image" src="./assets/img/projects_code/pb.jpeg" />
+                     <div align="center"><h4 class="text-info">Create a Calculator</h4></div>
+                    </a>
+
+
+
+                    <div class="d-none">
+
+                      <div class="product-form">
+                        <h3>Create a Calculator</h3>
+                        <span>0002C001</span>
+                        <ul style="list-style-type: none;">
+                          <li>Name: <b>Kavindu  Pabasara</b></li>
+                          <li>Grade: <b>10</b></li>
+                          <li>Description: <b>Create a simple calculator</b></li>
+                          </p>
+
+                    <a href="https://drive.google.com/open?id=1DO7cXrzkJcaQdoHaGZpR28qrJKATeMnu" target="_blank">
+                    <button class="btn btn-info">View Project</button>
+                    </a>
+                    
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+    
+                  
+               <div class="product">
+                    <a class="fancy-image" href="./assets/img/projects_code/np1.jpeg" data-fancybox="quick-view-2" data-type="image">
+                      <img class="fancy-image" src="./assets/img/projects_code/np1.jpeg" />
+                     <div align="center"><h4 class="text-info">Simple Alert System</h4></div>
+                    </a>
+
+
+
+                    <div class="d-none">
+
+                      <div class="product-form">
+                        <h3>Simple Alert System</h3>
+                        <span>0003C002</span>
+                        <ul style="list-style-type: none;">
+                          <li>Name: <b>Nethula Peiris</b></li>
+                          <li>Grade: <b>7</b></li>
+                          <li>Description: <b>Create a simple alert system with an alarm</b></li>
+                          </p>
+
+                    <a href="https://drive.google.com/file/d/1_zRD69Sjs9voiO96689ZX6nzXq1a0qbE/view?usp=sharing" target="_blank">
+                    <button class="btn btn-info">View Project</button>
+                    </a>
+                    
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+    
+                  
+               <div class="product">
+                    <a class="fancy-image" href="./assets/img/projects_code/aj.jpeg" data-fancybox="quick-view-2" data-type="image">
+                      <img class="fancy-image" src="./assets/img/projects_code/aj.jpeg" />
+                     <div align="center"><h4 class="text-info">Simple Alert System</h4></div>
+                    </a>
+
+
+
+                    <div class="d-none">
+
+                      <div class="product-form">
+                        <h3>Simple Alert System</h3>
+                        <span>0003C002</span>
+                        <ul style="list-style-type: none;">
+                          <li>Name: <b>Gothira Mendis</b></li>
+                          <li>Grade: <b>09</b></li>
+                          <li>Description: <b>Create a simple alert system with an alarm</b></li>
+                          </p>
+
+                    <a href="https://drive.google.com/open?id=1K-NK7ykUGKSvpLsU6rwMH21g5dblfM7q" target="_blank">
+                    <button class="btn btn-info">View Project</button>
+                    </a>
+                    
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+    
+                  
+               <div class="product">
+                    <a class="fancy-image" href="./assets/img/projects_code/bc1.jpeg" data-fancybox="quick-view-2" data-type="image">
+                      <img class="fancy-image" src="./assets/img/projects_code/bc1.jpeg" />
+                     <div align="center"><h4 class="text-info">Scratch Game</h4></div>
+                    </a>
+
+
+
+                    <div class="d-none">
+
+                      <div class="product-form">
+                        <h3>Scratch Game</h3>
+                        <span>0010C003</span>
+                        <ul style="list-style-type: none;">
+                          <li>Name: <b>Benul Chenuka</b></li>
+                          <li>Grade: <b>11</b></li>
+                          <li>Description: <b>Create a small game using Scratch</b></li>
+                          </p>
+
+                    <a href="https://scratch.mit.edu/projects/222603876/" target="_blank">
+                    <button class="btn btn-info">View Project</button>
+                    </a>
+                    
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+    
+                  
+               <div class="product">
+                    <a class="fancy-image" href="./assets/img/projects_code/np2.jpeg" data-fancybox="quick-view-2" data-type="image">
+                      <img class="fancy-image" src="./assets/img/projects_code/np2.jpeg" />
+                     <div align="center"><h4 class="text-info">Scratch Game</h4></div>
+                    </a>
+
+
+
+                    <div class="d-none">
+
+                      <div class="product-form">
+                        <h3>Scratch Game</h3>
+                        <span>0010C003</span>
+                        <ul style="list-style-type: none;">
+                          <li>Name: <b>Nethula Peiris</b></li>
+                          <li>Grade: <b>7</b></li>
+                          <li>Description: <b>Create a small game using Scratch</b></li>
+                          </p>
+
+                    <a href="https://scratch.mit.edu/projects/222776080" target="_blank">
+                    <button class="btn btn-info">View Project</button>
+                    </a>
+                    
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+    
+                  
+               <div class="product">
+                    <a class="fancy-image" href="./assets/img/projects_code/pb1.jpeg" data-fancybox="quick-view-2" data-type="image">
+                      <img class="fancy-image" src="./assets/img/projects_code/pb1.jpeg" />
+                     <div align="center"><h4 class="text-info">Scratch Game</h4></div>
+                    </a>
+
+
+
+                    <div class="d-none">
+
+                      <div class="product-form">
+                        <h3>Scratch Game</h3>
+                        <span>0010C003</span>
+                        <ul style="list-style-type: none;">
+                          <li>Name: <b>Kavindu Pabasara</b></li>
+                          <li>Grade: <b>10</b></li>
+                          <li>Description: <b>Create a small game using Scratch</b></li>
+                          </p>
+
+                    <a href="https://scratch.mit.edu/projects/222109695/" target="_blank">
+                    <button class="btn btn-info">View Project</button>
+                    </a>
+                    
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+    
+                  
+               <div class="product">
+                    <a class="fancy-image" href="./assets/img/projects_code/jh1.jpeg" data-fancybox="quick-view-2" data-type="image">
+                      <img class="fancy-image" src="./assets/img/projects_code/jh1.jpeg" />
+                     <div align="center"><h4 class="text-info">Scratch Game</h4></div>
+                    </a>
+
+
+
+                    <div class="d-none">
+
+                      <div class="product-form">
+                        <h3>Scratch Game</h3>
+                        <span>0010C003</span>
+                        <ul style="list-style-type: none;">
+                          <li>Name: <b>Jayasahan Hansana</b></li>
+                          <li>Grade: <b>10</b></li>
+                          <li>Description: <b>Create a small game using Scratch</b></li>
+                          </p>
+
+                    <a href="https://drive.google.com/file/d/1icybgWPEppe1wHpeoCrgr3G3SJY1v0U1/view" target="_blank">
+                    <button class="btn btn-info">View Project</button>
+                    </a>
+                    
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+    
+                  
+               <div class="product">
+                    <a class="fancy-image" href="./assets/img/projects_code/cme1.jpeg" data-fancybox="quick-view-2" data-type="image">
+                      <img class="fancy-image" src="./assets/img/projects_code/cme1.jpeg" />
+                     <div align="center"><h4 class="text-info">Scratch Game</h4></div>
+                    </a>
+
+
+
+                    <div class="d-none">
+
+                      <div class="product-form">
+                        <h3>Scratch Game</h3>
+                        <span>0010C003</span>
+                        <ul style="list-style-type: none;">
+                          <li>Name: <b>Chamuthu Edirisooriya</b></li>
+                          <li>Grade: <b>10</b></li>
+                          <li>Description: <b>Create a small game using Scratch</b></li>
+                          </p>
+
+                    <a href="https://drive.google.com/file/d/1moUQadU-iU8GG-73DS4UUlaynEzSjcGi/view" target="_blank">
+                    <button class="btn btn-info">View Project</button>
+                    </a>
+                    
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+    
+                  
+               <div class="product">
+                    <a class="fancy-image" href="./assets/img/projects_code/thu.jpeg" data-fancybox="quick-view-2" data-type="image">
+                      <img class="fancy-image" src="./assets/img/projects_code/thu.jpeg" />
+                     <div align="center"><h4 class="text-info">Scratch Game</h4></div>
+                    </a>
+
+
+
+                    <div class="d-none">
+
+                      <div class="product-form">
+                        <h3>Scratch Game</h3>
+                        <span>0010C003</span>
+                        <ul style="list-style-type: none;">
+                          <li>Name: <b>Thulina Perera</b></li>
+                          <li>Grade: <b>09</b></li>
+                          <li>Description: <b>Create a small game using Scratch</b></li>
+                          </p>
+
+                    <a href="https://scratch.mit.edu/projects/222487477/#editor" target="_blank">
+                    <button class="btn btn-info">View Project</button>
+                    </a>
+                    
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+    
+                  
+               <div class="product">
+                    <a class="fancy-image" href="./assets/img/projects_code/dr1.jpeg" data-fancybox="quick-view-2" data-type="image">
+                      <img class="fancy-image" src="./assets/img/projects_code/dr1.jpeg" />
+                     <div align="center"><h4 class="text-info">Morse Programme</h4></div>
+                    </a>
+
+
+
+                    <div class="d-none">
+
+                      <div class="product-form">
+                        <h3>Morse Programme</h3>
+                        <span>0016C004</span>
+                        <ul style="list-style-type: none;">
+                          <li>Name: <b>Davindu Reshan</b></li>
+                          <li>Grade: <b>11</b></li>
+                          <li>Description: <b>Text to Morse converting programme</b></li>
+                          </p>
+
+                    <a href="https://drive.google.com/file/d/1m4rQv2AKi3yBigljNOeXzPnUvO7OLsgL/view?usp=drivesdk" target="_blank">
+                    <button class="btn btn-info">View Project</button>
+                    </a>
+                    
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+    
+                  
+               <div class="product">
+                    <a class="fancy-image" href="./assets/img/projects_code/cc1.jpeg" data-fancybox="quick-view-2" data-type="image">
+                      <img class="fancy-image" src="./assets/img/projects_code/cc1.jpeg" />
+                     <div align="center"><h4 class="text-info">Create a Toss program</h4></div>
+                    </a>
+
+
+
+                    <div class="d-none">
+
+                      <div class="product-form">
+                        <h3>Create a Toss program</h3>
+                        <span>0018C005</span>
+                        <ul style="list-style-type: none;">
+                          <li>Name: <b>Chamod Perera</b></li>
+                          <li>Grade: <b>11</b></li>
+                          <li>Description: <b>Creating a Toss program</b></li>
+                          </p>
+
+                    <a href="https://drive.google.com/open?id=1qrCTChrScSjZmlRNRdNn3AWsmYT2_Z47" target="_blank">
+                    <button class="btn btn-info">View Project</button>
+                    </a>
+                    
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+    
+                  
+               <div class="product">
+                    <a class="fancy-image" href="./assets/img/projects_code/np3.jpeg" data-fancybox="quick-view-2" data-type="image">
+                      <img class="fancy-image" src="./assets/img/projects_code/np3.jpeg" />
+                     <div align="center"><h4 class="text-info">Create a Toss program</h4></div>
+                    </a>
+
+
+
+                    <div class="d-none">
+
+                      <div class="product-form">
+                        <h3>Create a Toss program</h3>
+                        <span>0018C005</span>
+                        <ul style="list-style-type: none;">
+                          <li>Name: <b>Nethula Peiris</b></li>
+                          <li>Grade: <b>7</b></li>
+                          <li>Description: <b>Creating a Toss program</b></li>
+                          </p>
+
+                    <a href="https://drive.google.com/open?id=1iB36mPmtOmDptZXxhkE_QR91QsXx9_h2" target="_blank">
+                    <button class="btn btn-info">View Project</button>
+                    </a>
+                    
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+    
+                  
+               <div class="product">
+                    <a class="fancy-image" href="./assets/img/projects_code/aj1.jpeg" data-fancybox="quick-view-2" data-type="image">
+                      <img class="fancy-image" src="./assets/img/projects_code/aj1.jpeg" />
+                     <div align="center"><h4 class="text-info">Traffic Light System</h4></div>
+                    </a>
+
+
+
+                    <div class="d-none">
+
+                      <div class="product-form">
+                        <h3>Traffic Light System</h3>
+                        <span>0025C006</span>
+                        <ul style="list-style-type: none;">
+                          <li>Name: <b>Gothira Mendis</b></li>
+                          <li>Grade: <b>09</b></li>
+                          <li>Description: <b>Creating a simple traffic light system</b></li>
+                          </p>
+
+                    <a href="https://drive.google.com/open?id=18JkaRaI9dkfzWoBvY_FALvLCxyN4hP_3" target="_blank">
+                    <button class="btn btn-info">View Project</button>
+                    </a>
+                    
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+    
+                  
+               <div class="product">
+                    <a class="fancy-image" href="./assets/img/projects_code/cc2.jpeg" data-fancybox="quick-view-2" data-type="image">
+                      <img class="fancy-image" src="./assets/img/projects_code/cc2.jpeg" />
+                     <div align="center"><h4 class="text-info">Alarm Clock</h4></div>
+                    </a>
+
+
+
+                    <div class="d-none">
+
+                      <div class="product-form">
+                        <h3>Alarm Clock</h3>
+                        <span>0027C007</span>
+                        <ul style="list-style-type: none;">
+                          <li>Name: <b>Chamod Perera</b></li>
+                          <li>Grade: <b>11</b></li>
+                          <li>Description: <b>Creating a simple alarm clock</b></li>
+                          </p>
+
+                    <a href="https://drive.google.com/file/d/1syig78JF6UEBCYaDyfwL5VsDLs1Luin7/view" target="_blank">
                     <button class="btn btn-info">View Project</button>
                     </a>
                     
@@ -815,6 +1603,34 @@
               <div class="row">
     
                 
+    
+                <div class="product" >
+                    <a class="fancy-image" href="./assets/img/projects_design/.png" data-fancybox="quick-view-2" data-type="image">
+                      <img class="fancy-image" src="./assets/img/projects_design/.png" />
+                      <div align="center" ><h4 class="text-info"></h4></div>
+                    </a>
+
+                    <div class="d-none">
+
+                      <div class="product-form">
+                        <h3></h3>
+                        <span></span>
+                        <ul style="list-style-type: none;">
+                          <li>Name: <b></b></li>
+                          <li>Grade: <b></b></li>
+                          <li>Description: <b></b></li>
+
+                    <a href="" target="_blank">
+                    <button class="btn btn-info">View Project</button>
+                    </a>
+                    
+                        </ul>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+    
+                  
     
                 <div class="product" >
                     <a class="fancy-image" href="./assets/img/projects_design/JH.png" data-fancybox="quick-view-2" data-type="image">
@@ -2016,7 +2832,15 @@
 
                   <p class="card-text"><strong>Class: </strong>Grade 11</p>
                   
+                  
+                                    <a href="https://github.com/reshan421" target="blank"><i class="fa fa-github-square fa-3x"></i></a>
+                  
+                                    
                                      
+                  
+                  
+                  <a href="https://instagram.com/reshan.official_" target="blank"><i class="fa fa-instagram-square fa-3x"></i></a>
+                  
                   
                   
 
@@ -2066,13 +2890,13 @@
 
                 <div class="view overlay">
 
-                  <img class="card-img-top" src="assets/img/students/janidu.jpeg" alt="Janidu Arinda Fernando"> </div>
+                  <img class="card-img-top" src="assets/img/students/janidu.jpeg" alt="T.Janidu Arinda Fernando"> </div>
 
                 <div class="card-body text-center">
 
                   <p class="card-title">
 
-                    <strong>Janidu Arinda Fernando</strong>
+                    <strong>T.Janidu Arinda Fernando</strong>
 
                     <br>
 
@@ -2216,7 +3040,15 @@
 
                   <p class="card-text"><strong>Class: </strong>Grade 11</p>
                   
+                  
+                                    <a href="https://github.com/chamodperera" target="blank"><i class="fa fa-github-square fa-3x"></i></a>
+                  
+                                    
                                      
+                  
+                  
+                  <a href="https://instagram.com/chamod_perera" target="blank"><i class="fa fa-instagram-square fa-3x"></i></a>
+                  
                   
                   
 
@@ -2248,8 +3080,20 @@
 
                   <p class="card-text"><strong>Class: </strong>Grade 11</p>
                   
+                  
+                                    <a href="https://github.com/Pahan-Samudika" target="blank"><i class="fa fa-github-square fa-3x"></i></a>
+                  
+                                    
                                      
                   
+                  
+                  <a href="https://instagram.com/___pahan_samudika___" target="blank"><i class="fa fa-instagram-square fa-3x"></i></a>
+                  
+                  
+                  
+
+                  <a href="https://twitter.com/PahanSamudika" target="blank"><i class="fa fa-twitter-square fa-3x"></i></a>
+
                   
 
                 </div>
