@@ -105,6 +105,114 @@
   grade: 10
   description: Create a blog about BITS on the topic of What is BITS
   link: https://bitsbyacicts.wordpress.com/2018/05/20/what-is-bits/
+
+- image: dr
+  name: Firefox Tutorial
+  task: 0004E001
+  category: Explore
+  student: Davindu Reshan
+  grade: 11
+  description: Create a tutorial to use Firefox 
+  link: https://drive.google.com/file/d/1ibVgKvOQsQ9gwoxQoLaQ_fzN9fqrqD9W/view 
+
+- image: jan
+  name: GitHub Start
+  task: 0022E012
+  category: Explore
+  student: Janidu Fernando
+  grade: 09
+  description: Installing Github Desktop
+  link: https://drive.google.com/open?id=0B1MfOfLHT1FqTzd6RlAzU1lJOS1VVVZyQy1sQTh1SjNZMXVB 
   
+- image: gs
+  name: Design a Website for GitHub
+  task: 0021E007
+  category: Explore
+  student: Gothira Sathnindu
+  grade: 09
+  description: Website for GITHUB
+  link: http://homeworkco090930522.simplesite.com/
+
+- image: rr
+  name: Design a Website for GitHub
+  task: 0021E007
+  category: Explore
+  student: Janiru Damsath Bandara Wijekoon
+  grade: 07
+  description: Website for GITHUB
+  link: https://janiru1.wordpress.com/ 
+
+- image: dr1
+  name: GitHub Start
+  task: 0022E012
+  category: Explore
+  student: Davindu Reshan
+  grade: 11
+  description: Installing Github Desktop
+  link: https://drive.google.com/file/d/1mQRwWpQw0wy08aSkM_Vkxfs6ZhLysNUJ/view 
+
+- image: rr1
+  name: Github Course 4
+  task: 0024E010
+  category: Explore
+  student: Janiru Damsath Bandara Wijekoon
+  grade: 07
+  description: Laern coding via Codeacademy
+  link: https://www.codecademy.com/CODING_JDB
+
+- image: jan2
+  name: History of Programming
+  task: 0019E005
+  category: Explore
+  student: Janidu Fernando
+  grade: 09
+  description: Presentation about History of Programming
+  link: https://drive.google.com/open?id=0B1MfOfLHT1FqdVM3aEFfVkZGUXpNTGJNZFNwMG4yWlE1U3Fj
+
+- image: TP
+  name: Explore about GitHub
+  task: 0009E003
+  category: Explore
+  student: Thulina Perera
+  grade: 9
+  description: Website about GitHub
+  link: http://thulinaforbits.simplesite.com/
+
+- image: hn1
+  name: Explore about GitHub
+  task: 0009E003
+  category: Explore
+  student: Heliya Bandara
+  grade: 11
+  description: Website about GitHub
+  link: http://heliya-bandara.simplesite.com/ 
+
+- image: cpp
+  name: Explore about GitHub
+  task: 0009E003
+  category: Explore
+  student: Chamod Perera
+  grade: 11
+  description: Website about GitHub
+  link: https://mynewblogadresschamod.blogspot.com/
+
+- image: sds
+  name: Explore about GitHub
+  task: 0009E003
+  category: Explore
+  student: Samiru De Silva
+  grade: 11
+  description: Website about GitHub
+  link: https://fossgithub.wordpress.com/ 
+
+- image: hn2
+  name: Join ACICTS
+  task: 0031E0012
+  category: Explore
+  student: Heliya Bandara
+  grade: 11
+  description: Sign up and get membership for ACICTS
+  link: https://drive.google.com/file/d/1lSdkfCV85_0V-lyBYAiIsAvcrgVlkMdt/view 
 
 
+  
