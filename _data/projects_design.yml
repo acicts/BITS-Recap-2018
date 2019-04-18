@@ -1,13 +1,3 @@
-- image: 
-  name:
-  task:
-  category:
-  student:
-  grade:
-  description:
-  link: 
-
-###########
 - image: JH
   name: YouTube Logo
   task: 0001D001
@@ -16,6 +6,96 @@
   grade: 10
   description: Logo for a YouTube channel
   link: https://drive.google.com/open?id=1t16EVG0qbimhz63IF6tCjN2PA86wItwB
+
+- image: pa01
+  name: YouTube Logo
+  task: 0001D001
+  category: Design
+  student: Pahan Abhayawardhane
+  grade: 11
+  description: Logo for a YouTube channel
+  link: https://drive.google.com/open?id=0B1MfOfLHT1FqOEJZdEpYaGxYZTBmUUtJaGxsNG5QQUlvbFEw
+
+- image: HN
+  name: YouTube Logo
+  task: 0001D001
+  category: Design
+  student: Heliya Nithira
+  grade: 11
+  description: Logo for a YouTube channel
+  link: https://drive.google.com/file/d/1wJADd68LsrQ2Im63_jdzUGmDko00kCD8/view?usp=sharing 
+
+- image: kp
+  name: YouTube Logo
+  task: 0001D001
+  category: Design
+  student: Kavindu Pabasara
+  grade: 10
+  description: Logo for a YouTube channel
+  link: https://drive.google.com/open?id=1tNQDzsLRrK7JPAvWDKSgUPfq-_WmjSiT   
+
+- image: Screenshot (65)
+  name: YouTube Logo
+  task: 0001D001 
+  category: Design
+  student: Chamuthu Edirisooriya
+  grade: 10
+  description: Create a YouTube Logo
+  link: https://drive.google.com/open?id=1gfyVBo7UGXtf0_lyaaE95i8iFFsb9m_Q
+
+- image: logonithika 
+  name: YouTube Logo
+  task: 0001D001 
+  category: Design
+  student: Nithika Senaweera
+  grade: 10 
+  description: Create a YouTube Logo
+  link: https://drive.google.com/open?id=1gfyVBo7UGXtf0_lyaaE95i8iFFsb9m_Q
+
+- image: ww
+  name: YouTube Logo
+  task: 0001D001
+  category: Design
+  student: Sanithu Hasmal Kudaliyana
+  grade: 08
+  description: YouTube Logo
+  link:   
+
+- image: bss
+  name: YouTube Logo
+  task: 0001D001
+  category: Design
+  student: Davindu Reshan
+  grade: 09
+  description: Logo for a YouTube channel
+  link: https://drive.google.com/open?id=1Ba1wsSgx9OuscAYYo9SApqlFL3VOyNaQ
+
+- image: cpp2
+  name: Youtube Logo
+  task: 0001D001
+  category: Design
+  student: Chamod Perera
+  grade: 11
+  description: Create a logo for a Youtube channel
+  link: https://drive.google.com/open?id=1jhnOoQfIOvyMUErNWwNwxKKsxCXJ2hKt  
+
+- image: ibb
+  name: YouTube Logo
+  task: 0001D001
+  category: Design
+  student: Inuka Batawala
+  grade: 07
+  description: Logo for a YouTube channel
+  link: https://drive.google.com/file/d/15HA0N6EL5NVYcWhePSGS0uVBlHX2GZR8/view?usp=sharing  
+
+- image: PhotoEditor_6_10_2018 8_06_35 PM_
+  name: YouTube Logo 
+  task: 0001D001
+  category: Design
+  student: Didula Dinoj Pieris
+  grade: 9
+  description: Logo for a YouTube channel
+  link: https://drive.google.com/open?id=1dC8hhuZPoOYPGvhkNB6cWTqCESio4Aqz
 
 - image: JA
   name: YouTube Logo
@@ -71,6 +151,15 @@
   description: Website for ACICTS
   link: https://drive.google.com/open?id=1Ht6gNwI6bdLCtLa7Sh1wtrhJfbyp1D3q
 
+- image: bss1
+  name: Create a website for ACICTS
+  task: 0005D002
+  category: Design
+  student: Bihandu Semal
+  grade: 09
+  description: Create a website for ACICTS
+  link: http://bitsacicts.simplesite.com/  
+
 - image: JF
   name: Short animation
   task: 0006D003
@@ -88,15 +177,6 @@
   grade: 11
   description: Promoting poster for Multi Device Security
   link: https://drive.google.com/open?id=1V70sUSeA6GFiHsdfaFJ5xbEXJzl1lPMK
-
-- image: PhotoEditor_6_10_2018 8_06_35 PM_
-  name: YouTube Logo 
-  task: 0001D001
-  category: Design
-  student: Didula Dinoj Pieris
-  grade: 9
-  description: Logo for a YouTube channel
-  link: https://drive.google.com/open?id=1dC8hhuZPoOYPGvhkNB6cWTqCESio4Aqz
 
 - image: PhotoEditor_6_10_2018 8_07_09 PM_
   name: Presentation about daily using software
@@ -116,23 +196,7 @@
   description: Night lamp 3D model
   link: https://drive.google.com/open?id=17sijEq2TU9IK9Kyh6rRBmqgso_Pmbs-_
 
-- image: bss
-  name: YouTube Logo
-  task: 0001D001
-  category: Design
-  student: Davindu Reshan
-  grade: 09
-  description: Logo for a YouTube channel
-  link: https://drive.google.com/open?id=1Ba1wsSgx9OuscAYYo9SApqlFL3VOyNaQ
 
-- image: bss1
-  name: Create a website for ACICTS
-  task: 0005D002
-  category: Design
-  student: Bihandu Semal
-  grade: 09
-  description: Create a website for ACICTS
-  link: http://bitsacicts.simplesite.com/
 
 - image: drr
   name: Poster
@@ -142,15 +206,6 @@
   grade: 11
   description: Create a product promoting poster
   link: https://drive.google.com/file/d/1qEZdk-BQ6-_9YI_xlco0D68c3zzxcfkp/view?usp=drivesdk
-
-- image: ibb
-  name: YouTube Logo
-  task: 0001D001
-  category: Design
-  student: Inuka Batawala
-  grade: 07
-  description: Logo for a YouTube channel
-  link: https://drive.google.com/file/d/15HA0N6EL5NVYcWhePSGS0uVBlHX2GZR8/view?usp=sharing
 
 - image: nnn
   name: Create a website
@@ -188,15 +243,6 @@
   description: Create a product promoting poster
   link: https://drive.google.com/open?id=1WWNuDfPPcDXcuw5LbxMupBYak_-p8bth
 
-- image: cpp2
-  name: Youtube Logo
-  task: 0001D001
-  category: Design
-  student: Chamod Perera
-  grade: 11
-  description: Create a logo for a Youtube channel
-  link: https://drive.google.com/open?id=1jhnOoQfIOvyMUErNWwNwxKKsxCXJ2hKt
-
 - image: tpp
   name: Create a website
   task: 0005D002
@@ -213,15 +259,6 @@
   student: Sanithu Hasmal Kudaliyana
   grade: 08
   description: Promoting Poster
-  link: 
-
-- image: ww
-  name: YouTube Logo
-  task: 0001D001
-  category: Design
-  student: Sanithu Hasmal Kudaliyana
-  grade: 08
-  description: YouTube Logo
   link: 
 
 - image: ee
@@ -242,24 +279,6 @@
   description: Create a calendar
   link: Janiru Damsath Bandara Wijekoon
 
-- image: logonithika 
-  name: YouTube Logo
-  task: 0001D001 
-  category: Design
-  student: Nithika Senaweera
-  grade: 
-  description: Create a YouTube Logo
-  link: https://drive.google.com/open?id=1gfyVBo7UGXtf0_lyaaE95i8iFFsb9m_Q
-
-- image: Screenshot (65)
-  name: YouTube Logo
-  task: 0001D001 
-  category: Design
-  student: Chamuthu Edirisooriya
-  grade: 10
-  description: Create a YouTube Logo
-  link: https://drive.google.com/open?id=1gfyVBo7UGXtf0_lyaaE95i8iFFsb9m_Q
-
 - image: Screenshot (77)
   name: Presentation about daily using software
   task: 0012D005 
@@ -268,4 +287,83 @@
   grade: 07
   description: Presentation about Microsoft Word
   link: https://drive.google.com/open?id=1NoXlwy5iUMNQ0CucvAaOZn-tp-f0po0H
+
+- image: bc
+  name: Design a Website
+  task: 0005D002
+  category: Design
+  student: Benul Chenuka
+  grade: 07
+  description: Website for ACICTS
+  link: https://benulchenuka1.wixsite.com/acicts
+
+- image: JH1
+  name: Presentation about daily using software
+  task: 0012D005
+  category: Design
+  student: Jayasahan Hansana
+  grade: 10
+  description: Presenation about software used daily by computer users
+  link: https://drive.google.com/file/d/1KuPYJ69qeQkybL0dvhDOqiHpE5DRgWqq/view?ts=5b03fe65
+
+- image: NP1
+  name: Poster
+  task: 0013D006
+  category: Design
+  student: Nethula Peiris
+  grade: 9
+  description: Create a product promoting poster
+  link: https://drive.google.com/open?id=1azavPx6pS0G9wLO-mbl9sGt3H_5eeiMj
+
+- image: DDP1
+  name: Poster
+  task: 0013D006
+  category: Design
+  student: Didula Dinoj Pieris
+  grade: 9
+  description: Create a product promoting poster
+  link: https://drive.google.com/open?id=1wsUPAMcUoHIpInnunhiCrjhJC-g5yEZO
+
+- image: T
+  name: Poster
+  task: 0013D006
+  category: Design
+  student: Tenura
+  grade: 9
+  description: Create a product promoting poster
+  link: https://drive.google.com/open?id=1wsUPAMcUoHIpInnunhiCrjhJC-g5yEZO  
+
+- image: bs
+  name: Product Detail Cover
+  task: 0030D012
+  category: Design
+  student: Bihandu Semal
+  grade: 09
+  description: Design a cover for any kind of product
+  link: https://drive.google.com/open?id=1nR6TqtHsiu08-5f276h4yJvO9qjW3rTlnOJfdQG3aVg
+
+- image: np2
+  name: Product Detail Cover
+  task: 0030D012
+  category: Design
+  student: Nethula Peiris
+  grade: 9
+  description: Design a cover for any kind of product
+  link: https://drive.google.com/file/d/1KLeEf0t4oJbAI-4T66i9OFJVKg0V4Czn/view
+
+- image: hn1
+  name: New Font
+  task: 0014D007
+  category: Design
+  student: Heliya Nithira
+  grade: 11
+  description: Design a new font style
+  link: https://drive.google.com/file/d/1x4MToqIHFK8S_rUU2RzQoeMPgN1N-Jnb/view  
+
+
+
+
+
+
+
 
