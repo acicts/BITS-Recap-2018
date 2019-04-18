@@ -247,7 +247,7 @@
   task: 0001D001 
   category: Design
   student: Nithika Senaweera
-  grade: 
+  grade: 10 
   description: Create a YouTube Logo
   link: https://drive.google.com/open?id=1gfyVBo7UGXtf0_lyaaE95i8iFFsb9m_Q
 
@@ -268,4 +268,66 @@
   grade: 07
   description: Presentation about Microsoft Word
   link: https://drive.google.com/open?id=1NoXlwy5iUMNQ0CucvAaOZn-tp-f0po0H
+
+- image: bc
+  name: Design a Website
+  task: 0005D002
+  category: Design
+  student: Benul Chenuka
+  grade: 07
+  description: Website for ACICTS
+  link: https://benulchenuka1.wixsite.com/acicts
+
+- image: JH1
+  name: Presentation about daily using software
+  task: 0012D005
+  category: Design
+  student: Jayasahan Hansana
+  grade: 10
+  description: Presenation about software used daily by computer users
+  link: https://drive.google.com/file/d/1KuPYJ69qeQkybL0dvhDOqiHpE5DRgWqq/view?ts=5b03fe65
+
+- image: NP1
+  name: Poster
+  task: 0013D006
+  category: Design
+  student: Nethula Peiris
+  grade: 9
+  description: Create a product promoting poster
+  link: https://drive.google.com/open?id=1azavPx6pS0G9wLO-mbl9sGt3H_5eeiMj
+
+- image: HN
+  name: YouTube Logo
+  task: 0001D001
+  category: Design
+  student: Heliya Nithira
+  grade: 11
+  description: Logo for a YouTube channel
+  link: https://drive.google.com/file/d/1wJADd68LsrQ2Im63_jdzUGmDko00kCD8/view?usp=sharing
+
+- image: DDP1
+  name: Poster
+  task: 0013D006
+  category: Design
+  student: Didula Dinoj Pieris
+  grade: 9
+  description: Create a product promoting poster
+  link: https://drive.google.com/open?id=1wsUPAMcUoHIpInnunhiCrjhJC-g5yEZO
+
+- image: T
+  name: Poster
+  task: 0013D006
+  category: Design
+  student: Tenura
+  grade: 9
+  description: Create a product promoting poster
+  link: https://drive.google.com/open?id=1wsUPAMcUoHIpInnunhiCrjhJC-g5yEZO  
+
+
+
+
+
+
+
+
 
