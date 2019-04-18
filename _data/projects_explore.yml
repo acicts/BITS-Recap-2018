@@ -79,3 +79,32 @@
   description: Create a document about FOSS
   link: https://drive.google.com/open?id=1tfKnbHcVDLS5z7RJwjSZeE5ehueuCybM
 
+- image: bh3
+  name: History of Programming
+  task: 0019E005
+  category: Explore
+  student: Bihandu Semal
+  grade: 09
+  description: Presentation about History of Programming
+  link: https://drive.google.com/open?id=0B1MfOfLHT1FqNWRIWVJkWVRORDgzcHdGazlXdjlVekIyMExJ
+
+- image: DR
+  name: Create a document about FOSS
+  task: 0011E004
+  category: Explore
+  student: Davindu Reshan
+  grade: 11
+  description: Create a document about FOSS 
+  link: https://drive.google.com/file/d/1tY75tBsQ7ejSm7Md1t0vRLeptKv60jUY/view?usp=drivesdk
+
+- image: ce1
+  name: Create a blog about BITS
+  task: 0009E003
+  category: Explore
+  student: Chamuth Edirisooriya 
+  grade: 10
+  description: Create a blog about BITS on the topic of What is BITS
+  link: https://bitsbyacicts.wordpress.com/2018/05/20/what-is-bits/
+  
+
+
