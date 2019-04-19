@@ -1,61 +1,64 @@
 - name: Binath Lakvidhu
   class: 13
+  description: President @acicts18
   image: binath
   github: Binath
   twitter: BinathL
   instagram: _.binath._
-  
+  facebook: binath.lakvidu
+
 - name: Supun Tharinda
   class: 11
+  description: BITS - Project Coordinator
   image: supun_tharinda
   github: STEdirisuriya
   twitter: Supun_Tharinda_
-  instagram: supun_tharinda_2002
-
-- name: Owin Gunawardena
-  class: 13
-  image: owin
-  github: NotOogy
-  twitter: OwinOmal
-  instagram: owin_yo_
+  instagram: _supun_tharinda_
+  facebook: SupunTharindaE
 
 - name: Hasala Heyianthuduwa
   class: 11
+  description: BITS - Sub Coordinator
   image: Hasala
-
-- name: Pawara Navojith
-  class: 13
-  image: pawara
-  twitter: PawaraNavojith
-  instagram: pawaranavojith
-
-- name: Dinuk De Silva
-  class: 13
-  image: dinuk
-  twitter: dinuklolitha
-  instagram: _deltanemesis_
-
-- name: Pasan Perera
-  class: 13
-  image: pasan
-  instagram: __pasan___
-
-- name: Maneth Bimsara 
-  class: 11
-  image: maneth
-  twitter: Maneth_Bimsara
+  github: hasala2002
 
 - name: Hasalu Botheju
   class: 11
   image: hasalu
+  github: HasaluSL
+  description: BITS - Sub Coordinator
 
 - name: Adeesh Perera
   class: 11
   image: mentor
   github: AdeeshPe
   twitter: adeeshpe
+  description: BITS - Organizing Committee
 
 - name: Induwara Ranathunga
   class: 11
-  image: mentor
-  instagram: induu_96
+  image: induwara
+  instagram: _.induu_
+  description: BITS - Organizing Committee
+
+- name: Owin Gunawardena
+  class: 13
+  description: Board of Official @acicts18
+  image: owin
+  github: NotOogy
+  twitter: OwinOmal
+  instagram: owin_yo_
+
+- name: Pawara Navojith
+  class: 13
+  description: Board of Official @acicts18
+  image: pawara
+  twitter: PawaraNavojith
+  instagram: pawaranavojith
+
+- name: Dinuk De Silva
+  class: 13
+  description: Board of Official @acicts18
+  image: dinuk
+  twitter: dinuklolitha
+  instagram: _deltanemesis_
