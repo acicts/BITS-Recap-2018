@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap');
+
+body{
+    font-family: 'Source Code Pro', monospace !important;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #141517 !important;
+}
+
+.navbar{
+    padding: 20px 0 20px 0 !important;
+}
+
+.main-header{
+    width: 100% !important;
+    background-size: 100% 100%;
+    background-image: url(../img/header-bg.jpg);
+    height: 570px;
+    overflow-x: hidden;
+}
+
+.intro-heading{
+    padding-top: 20%;
+    font-size: 550%;
+    text-align: center;
+    color: white;
+}
+
+.intro-sub{
+    font-size: 150%;
+    text-align: center;
+    color: white; 
+}
+
+.wave1{
+    margin-top: -230px;
+}
+
+.wave2{
+    margin-top: -235px;
+}
+
+.image1{
+    margin-top: -420px;
+    transform: translateX(50%);
+    animation: floatAnim 6s ease-in-out infinite;
+}
+
+@keyframes floatAnim {
+    0% {
+      transform: translate(50%,123px);
+    }
+    50% {
+      transform: translate(50%,138px);
+    }
+    100% {
+      transform: translate(50%,123px);
+    }
+}
+
+.section-1{
+    margin-top: 20px;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.section-1 div.topic{
+    font-size: 200%;
+    text-align: center;
+    color: white; 
+}
+
+.section-1 div.description{
+    font-size: 100%;
+    margin: 20px 20%;
+    text-align: center;
+    color: white; 
+}
+
+.section-2{
+    margin-top: 20px;
+    width: 100%;
+    height: 600px;
+    padding: 0 200px;
+}
+
+.section-2 div.topic{
+    font-size: 200%;
+    text-align: center;
+    color: white; 
+}
+
+@media only screen and (max-width: 600px) {
+    .main-header{
+        background-size: 200% 100%;
+        background-position: center;
+        height: 540px;
+    }
+
+    .intro-heading{
+        padding-top: 20%;
+        font-size: 500%;
+        text-align: center;
+        color: white;
+    }
+
+    .wave1{
+        margin-top: -80px;
+    }
+
+    .wave2{
+        margin-top: -70px;
+    }
+
+    .image1{
+        margin-top: -602px;
+        transform: translateX(-58%);
+        animation: floatAnimS 6s ease-in-out infinite;
+    }    
+
+    .section-1{
+        margin-top: 85px;
+    }
+
+    @keyframes floatAnimS {
+        0% {
+          transform: translate(-58%,123px);
+        }
+        50% {
+          transform: translate(-58%,138px);
+        }
+        100% {
+          transform: translate(-58%,123px);
+        }
+    }
+}
