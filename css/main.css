@@ -15,7 +15,7 @@ body{
     width: 100% !important;
     background-size: 100% 100%;
     background-image: url(../img/header-bg.jpg);
-    height: 570px;
+    height: 630px;
     overflow-x: hidden;
 }
 
@@ -33,11 +33,11 @@ body{
 }
 
 .wave1{
-    margin-top: -230px;
+    margin-top: -310px;
 }
 
 .wave2{
-    margin-top: -235px;
+    margin-top: -285px;
 }
 
 .image1{
@@ -77,10 +77,30 @@ body{
     color: white; 
 }
 
+.image2{
+    margin-top: -380px;
+    position: absolute;
+    width: 50px;
+    transform: translateX(85%);
+    animation: floatAnim2 6s ease-in-out infinite;
+}
+
+@keyframes floatAnim2 {
+    0% {
+      transform: translate(85%, 138px);
+    }
+    50% {
+      transform: translate(85%, 123px);
+    }
+    100% {
+       transform: translate(85%, 138px);
+    }
+}
+
 .section-2{
     margin-top: 20px;
     width: 100%;
-    height: 600px;
+    height: 400px;
     padding: 0 200px;
 }
 
@@ -88,6 +108,87 @@ body{
     font-size: 200%;
     text-align: center;
     color: white; 
+}
+
+.winners{
+    padding-top: 20px;
+}
+
+.winners div.card{
+    background-color: #0f2e4deb;
+    color: #a2a2a2;
+}
+
+.section-3{
+    margin-top: 40px;
+    width: 100%;
+    padding: 0 100px;
+}
+
+.section-3 div.topic{
+    font-size: 200%;
+    text-align: center;
+    color: white; 
+}
+
+.detail-cards{
+    padding-top: 20px;
+}
+
+.detail-cards div.card{
+    background-color: #0f2d4c;
+    color: #a2a2a2;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.detail-cards img.card-img-top{
+    padding: 10px;
+    border-radius: 20px;
+}
+/* 
+.image3{
+    margin-top: -420px;
+    position: absolute;
+    width: 50px;
+    transform: translateX(1800%);
+    animation: floatAnim3 6s ease-in-out infinite;
+}
+
+@keyframes floatAnim3 {
+    0% {
+        transform: translate(1800%,123px);
+      }
+      50% {
+        transform: translate(1800%,138px);
+      }
+      100% {
+        transform: translate(1800%,123px);
+      }
+} */
+
+.chart-card{
+    background-color: #111315 !important;
+    color: #b3b3b3;
+    margin-bottom: 220px;
+    text-align: center;
+}
+
+.wave3{
+    margin-top: -235px;
+}
+
+.wave4{
+    margin-top: -280px;
+}
+
+.page-footer{
+    color: white;
+    background-color: #343a40;
+}
+
+.footer-copyright{
+    background-color: #222325;
 }
 
 @media only screen and (max-width: 600px) {
@@ -118,8 +219,29 @@ body{
         animation: floatAnimS 6s ease-in-out infinite;
     }    
 
+    .image1 svg{
+        transform: scale(0.8);
+    }
+
     .section-1{
         margin-top: 85px;
+    }
+
+    .image2{
+        margin-top: -500px;
+        transform: translateX(-490%);
+        animation: floatAnimS2 6s ease-in-out infinite;
+    } 
+    
+    .image2 svg{
+        transform: scale(0.5);
+    }
+
+    .section-2{
+        margin-top: 20px;
+        width: 100%;
+        height: 600px;
+        padding: 0 10px;
     }
 
     @keyframes floatAnimS {
@@ -131,6 +253,18 @@ body{
         }
         100% {
           transform: translate(-58%,123px);
+        }
+    }
+
+    @keyframes floatAnimS2 {
+        0% {
+          transform: translate(-490%,138px);
+        }
+        50% {
+          transform: translate(-490%,123px);
+        }
+        100% {
+          transform: translate(-490%,138px);
         }
     }
 }
