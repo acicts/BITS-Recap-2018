@@ -19,7 +19,7 @@ var myChart = new Chart(ctx, {
         scales: {
             yAxes: [{
                 ticks: {
-                    beginAtZero: false
+                    beginAtZero: true
                 }
             }]
         }
@@ -58,7 +58,7 @@ var myChart2 = new Chart(ctx2, {
         scales: {
             yAxes: [{
                 ticks: {
-                    beginAtZero: false
+                    beginAtZero: true
                 }
             }]
         }
